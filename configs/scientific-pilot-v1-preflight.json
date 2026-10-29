@@ -1,0 +1,14 @@
+{
+  "campaign_version": "scientific-pilot-v1-preflight-1",
+  "world_seed": 101,
+  "query_seed": 202,
+  "transition_seed": 303,
+  "fault_seed": 404,
+  "docs_per_domain": 30,
+  "tenants": 2,
+  "principals_per_tenant": 12,
+  "top_k": 10,
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "embedding_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "embedding_snapshot": "/Users/nischithacn/.cache/huggingface/hub/models--sentence-transformers--all-MiniLM-L6-v2/snapshots/1110a243fdf4706b3f48f1d95db1a4f5529b4d41"
+}

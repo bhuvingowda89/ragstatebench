@@ -1,0 +1,41 @@
+{
+  "Track A": {
+    "population": "all semantically applicable v3 queries",
+    "purpose": "Isolate causal state convergence without ordinary search-ranking error",
+    "retrieval": "oracle logical IDs -> replica-visible content/parent/ACL/cache -> context"
+  },
+  "Track B": {
+    "population": "frozen transition-cohort-v2",
+    "purpose": "Ecological transfer under realistic retrieval noise",
+    "retrieval": "frozen PA2"
+  },
+  "full_clean_benchmark": {
+    "population": "all v3 queries",
+    "purpose": "Report ordinary retrieval difficulty separately"
+  },
+  "hypotheses": [
+    "H1",
+    "H2",
+    "H3",
+    "H4",
+    "H5",
+    "H6",
+    "H7",
+    "H8",
+    "H9"
+  ],
+  "multi_source_delete_grant_revoke_exclusions": "frozen post-transition answerability for loss of one of multiple required sources is undefined",
+  "negative_query_exclusions": "cross-tenant frozen negatives lack a semantically applicable primary transition",
+  "no_canonical_content_in_retrieval": true,
+  "primary": "Track A",
+  "research_questions": [
+    "RQ1",
+    "RQ2",
+    "RQ3",
+    "RQ4",
+    "RQ5",
+    "RQ6"
+  ],
+  "transition_subset_selected_before_outcomes": true,
+  "version": "analysis-policy-v2"
+}

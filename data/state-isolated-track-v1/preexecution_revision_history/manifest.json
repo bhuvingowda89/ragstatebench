@@ -1,0 +1,205 @@
+{
+  "analysis_policy_sha256": "8ba6a485b1c0cf5755e1e02f6116087b272bb2e8af00bdbed006c27da779e0e0",
+  "config": {
+    "architecture_components": {
+      "A0": {
+        "epoch_cache_validation": 0,
+        "event_driven_invalidation": 0,
+        "live_authorization": 0,
+        "periodic_sync": 0
+      },
+      "A1": {
+        "epoch_cache_validation": 0,
+        "event_driven_invalidation": 0,
+        "live_authorization": 0,
+        "periodic_sync": 1
+      },
+      "A2": {
+        "epoch_cache_validation": 0,
+        "event_driven_invalidation": 1,
+        "live_authorization": 0,
+        "periodic_sync": 0
+      },
+      "A3": {
+        "epoch_cache_validation": 1,
+        "event_driven_invalidation": 0,
+        "live_authorization": 0,
+        "periodic_sync": 0
+      },
+      "A4": {
+        "epoch_cache_validation": 0,
+        "event_driven_invalidation": 0,
+        "live_authorization": 1,
+        "periodic_sync": 0
+      },
+      "A5": {
+        "epoch_cache_validation": 1,
+        "event_driven_invalidation": 1,
+        "live_authorization": 1,
+        "periodic_sync": 0
+      }
+    },
+    "bootstrap_replicates": 2000,
+    "bootstrap_seed": 606,
+    "campaign_version": "state-isolated-pilot-v1",
+    "candidate_k": 30,
+    "canonical_base_tick": 9,
+    "component_factorial_blocks": {
+      "authorization_revoke_S2": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          1
+        ]
+      ],
+      "content_cache_S2": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          0
+        ]
+      ]
+    },
+    "compound_ids": [
+      "CF1",
+      "CF2",
+      "CF3",
+      "CF4",
+      "CF5",
+      "CF6"
+    ],
+    "corpus_manifest": "data/generated-v3/manifest.json",
+    "corpus_sha256": "440b2ce748865b8960573af69b72a2789a7fd61e0a68778238adf187bbc4ecc2",
+    "embedding_model": "intfloat/e5-small-v2",
+    "embedding_passage_prefix": "passage: ",
+    "embedding_query_prefix": "query: ",
+    "embedding_revision": "ffb93f3bd4047442299a41ebb6fa998a38507c52",
+    "embedding_snapshot": "/Users/nischithacn/.cache/huggingface/hub/models--intfloat--e5-small-v2/snapshots/ffb93f3bd4047442299a41ebb6fa998a38507c52",
+    "fault_seed": 404,
+    "hybrid": {
+      "candidate_k": 100,
+      "dense_weight": 1.0,
+      "rrf_k": 60,
+      "sparse_weight": 1.0
+    },
+    "observation_relative_ticks": [
+      -1,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      14
+    ],
+    "parent_chunk_rrf_k": 60,
+    "periodic_sync_interval": 4,
+    "pilot_gates": {
+      "D1": {
+        "state_isolated_clean_answerable_min": 0.98
+      },
+      "D11": {
+        "track_b_major_direction_agreement_min": 0.5
+      },
+      "D12": {
+        "fresh_process_identical": true
+      },
+      "D2": {
+        "canonical_leakage_count_max": 0
+      },
+      "D3": {
+        "primary_transition_families_with_effect_min": 4
+      }
+    },
+    "primary_architecture": "PA2",
+    "ra1_chunk_words": 160,
+    "ra1_overlap_words": 0,
+    "selection_seed": 505,
+    "severity_ticks": {
+      "S0": 0,
+      "S1": 2,
+      "S2": 5,
+      "S3": 10
+    },
+    "state_isolated_ordering": "replica_chunk_index_order",
+    "ta1_population": "all_semantically_applicable_v3_queries",
+    "ta2_delay_queries_per_domain": 1,
+    "ta2_dropped_per_transition": 2,
+    "ta2_out_of_order_per_sequence": 2,
+    "ta2_partial_fractions": [
+      0.25,
+      0.5,
+      0.75
+    ],
+    "ta2_partial_max_queries": 8,
+    "ta3_queries_per_domain_transition": 1,
+    "ta3_s3_confirmation_domains": 2,
+    "ta4_queries_per_domain_transition": 1,
+    "ta5_queries_per_domain_compound": 1,
+    "ta6_queries_per_domain_block": 1,
+    "top_k": 10,
+    "track_b_cohort_ids": "data/transition-cohort-v2/eligible_answerable_query_ids.json",
+    "track_b_cohort_manifest": "data/transition-cohort-v2/cohort_manifest.json",
+    "track_b_cohort_sha256": "e74d643f6c2eb7c8ed8c52683e0db0152f7d7ddbcf29d86c070a28e22c79ce43",
+    "track_b_negative_ids": "data/transition-cohort-v2/eligible_negative_query_ids.json",
+    "track_b_queries_per_domain_compound": 1,
+    "track_b_queries_per_domain_transition": 1,
+    "transfer_version": "realistic-transfer-pilot-v1",
+    "transition_absolute_tick": 10,
+    "transition_seed": 303,
+    "transition_types": [
+      "UPDATE",
+      "SUPERSEDE",
+      "DELETE",
+      "GRANT",
+      "REVOKE"
+    ]
+  },
+  "config_sha256": "822107e99bd23ef7227e895c0f256769e98b85f17c6aea8bf924ba4ba5580e05",
+  "corpus_sha256": "440b2ce748865b8960573af69b72a2789a7fd61e0a68778238adf187bbc4ecc2",
+  "frozen_before_transition_outcomes": true,
+  "manifest_hashes": {
+    "applicability": "6a8deef7c249b36836d82f84b3aa8030c261aea093d6c3004cd2854c13e23b2f",
+    "component_factorial": "e6dc8a74dad4de07ec31fe5cfbd313e8bf44c00766a0b0cd7ebbac9bbecbf86d",
+    "track_a": "76f29f196293a6e87d1fec097e9b23106cc15242bb139803b969c0c61d921204",
+    "track_b": "b32bf90f14fa85c221825f5b3b27493a27713a17764ddbfd8740d93e6e04d0e4"
+  },
+  "track_b_cohort_sha256": "e74d643f6c2eb7c8ed8c52683e0db0152f7d7ddbcf29d86c070a28e22c79ce43"
+}

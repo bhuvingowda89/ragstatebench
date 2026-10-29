@@ -1,0 +1,24 @@
+{"groups": ["employee"], "principal_id": "v2-tenant_a-engineering-generalist", "tenant_id": "tenant_a"}
+{"groups": ["employee", "engineering"], "principal_id": "v2-tenant_a-engineering-specialist", "tenant_id": "tenant_a"}
+{"groups": ["employee"], "principal_id": "v2-tenant_a-finance-generalist", "tenant_id": "tenant_a"}
+{"groups": ["employee", "finance"], "principal_id": "v2-tenant_a-finance-specialist", "tenant_id": "tenant_a"}
+{"groups": ["employee"], "principal_id": "v2-tenant_a-hr-generalist", "tenant_id": "tenant_a"}
+{"groups": ["employee", "hr"], "principal_id": "v2-tenant_a-hr-specialist", "tenant_id": "tenant_a"}
+{"groups": ["employee"], "principal_id": "v2-tenant_a-legal-generalist", "tenant_id": "tenant_a"}
+{"groups": ["employee", "legal"], "principal_id": "v2-tenant_a-legal-specialist", "tenant_id": "tenant_a"}
+{"groups": ["employee"], "principal_id": "v2-tenant_a-sales-generalist", "tenant_id": "tenant_a"}
+{"groups": ["employee", "sales"], "principal_id": "v2-tenant_a-sales-specialist", "tenant_id": "tenant_a"}
+{"groups": ["employee"], "principal_id": "v2-tenant_a-security-generalist", "tenant_id": "tenant_a"}
+{"groups": ["employee", "security"], "principal_id": "v2-tenant_a-security-specialist", "tenant_id": "tenant_a"}
+{"groups": ["employee"], "principal_id": "v2-tenant_b-engineering-generalist", "tenant_id": "tenant_b"}
+{"groups": ["employee", "engineering"], "principal_id": "v2-tenant_b-engineering-specialist", "tenant_id": "tenant_b"}
+{"groups": ["employee"], "principal_id": "v2-tenant_b-finance-generalist", "tenant_id": "tenant_b"}
+{"groups": ["employee", "finance"], "principal_id": "v2-tenant_b-finance-specialist", "tenant_id": "tenant_b"}
+{"groups": ["employee"], "principal_id": "v2-tenant_b-hr-generalist", "tenant_id": "tenant_b"}
+{"groups": ["employee", "hr"], "principal_id": "v2-tenant_b-hr-specialist", "tenant_id": "tenant_b"}
+{"groups": ["employee"], "principal_id": "v2-tenant_b-legal-generalist", "tenant_id": "tenant_b"}
+{"groups": ["employee", "legal"], "principal_id": "v2-tenant_b-legal-specialist", "tenant_id": "tenant_b"}
+{"groups": ["employee"], "principal_id": "v2-tenant_b-sales-generalist", "tenant_id": "tenant_b"}
+{"groups": ["employee", "sales"], "principal_id": "v2-tenant_b-sales-specialist", "tenant_id": "tenant_b"}
+{"groups": ["employee"], "principal_id": "v2-tenant_b-security-generalist", "tenant_id": "tenant_b"}
+{"groups": ["employee", "security"], "principal_id": "v2-tenant_b-security-specialist", "tenant_id": "tenant_b"}

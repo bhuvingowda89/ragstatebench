@@ -1,0 +1,88 @@
+{
+  "config": {
+    "corpus_version": "v2",
+    "domains": [
+      "hr",
+      "finance",
+      "engineering",
+      "security",
+      "sales",
+      "legal"
+    ],
+    "embedding_model": "intfloat/e5-small-v2",
+    "embedding_passage_prefix": "passage: ",
+    "embedding_query_prefix": "query: ",
+    "embedding_revision": "ffb93f3bd4047442299a41ebb6fa998a38507c52",
+    "embedding_snapshot": "/Users/nischithacn/.cache/huggingface/hub/models--intfloat--e5-small-v2/snapshots/ffb93f3bd4047442299a41ebb6fa998a38507c52",
+    "family_counts_per_domain": {
+      "entity_context": 5,
+      "identifier_bearing": 4,
+      "multi_document": 5,
+      "natural_descriptive": 13,
+      "negative": 2,
+      "paraphrased_policy": 7
+    },
+    "fault_seed": 404,
+    "gates_frozen_before_retrieval": {
+      "V2-G1": {
+        "identifier_leakage_max": 0.15,
+        "non_identifier_unique_gold_token_max": 0.25,
+        "unresolved_construction_warnings_max": 0
+      },
+      "V2-G2": {
+        "bm25_macro_cer_at_10_min": 0.85
+      },
+      "V2-G3": {
+        "e5_macro_cer_at_10_min": 0.9
+      },
+      "V2-G4": {
+        "hybrid_macro_scrs_min": 0.9,
+        "hybrid_min_domain_scrs": 0.85
+      },
+      "V2-G5": {
+        "hybrid_multi_document_all_required_min": 0.85
+      },
+      "V2-G6": {
+        "negative_absence_success_min": 0.9
+      },
+      "V2-G7": {
+        "identical_corpus_hash_and_rankings": true
+      }
+    },
+    "hybrid": {
+      "candidate_k": 100,
+      "dense_weight": 1.0,
+      "rrf_k": 60,
+      "sparse_weight": 1.0
+    },
+    "logical_time": 9,
+    "query_seed": 202,
+    "questions_per_domain": 36,
+    "top_k": 10,
+    "transition_seed": 303,
+    "validation_version": "phase7b-corpus-validation-v2-1",
+    "world_seed": 101
+  },
+  "config_sha256": "e7a8e0989ffdbaac8d4784a0932fca920621a97a67704617169869525c3b6ede",
+  "corpus_sha256": "1484ee77bff3232b8deb403b549e00bc19fcc4e4e763f9399fab0a0632a7e1ec",
+  "corpus_version": "v2",
+  "created_without_retrieval_scores": true,
+  "data_sha256": {
+    "documents.jsonl": "7c3055afbc98f3716fe5d2c5283e150106ba9cd0c9f3ac28ce2f712e1f75c02f",
+    "lexical_leakage.csv": "4b7e8d9030cff08ef667455f0fc87b48a00b96fe42caa8e3809f1abc6d469d2e",
+    "principals.jsonl": "36e2fc06597e11babe66c09a86dbe9a4956bd8ac95fb455e08be88f797b98928",
+    "queries.jsonl": "13ba305a7f3642eb3e0b2a39f9dafdebac71c5fdfdde8468696b4ae744d19e87"
+  },
+  "document_versions": 420,
+  "generator_source_sha256": {
+    "phase7b.py": "a0c960180c7c11333bbe7efb5fbf1006e73aba2595963109549c9ebddbb4de51",
+    "scientific_v2.py": "b2265fea3100e50d2ed0d4036ecfff520b1d3a81eb61f3a9d689857beb4d9071",
+    "v2_validation.py": "eefb468b4e5e65ce01c945f3388b10c73e01380cc5b853292879599fb9c19dcc"
+  },
+  "git_commit": null,
+  "gold_validation_errors": [],
+  "logical_documents": 360,
+  "pre_retrieval_frozen": true,
+  "queries": 216,
+  "validation_version": "phase7b-corpus-validation-v2-1"
+}

@@ -1,0 +1,2042 @@
+[
+  {
+    "answerable": true,
+    "applicable": false,
+    "domain": "engineering",
+    "exclusion_reason": "post_transition_multi_source_answerability_undefined",
+    "logical_evidence_ids": [
+      "V3-ENGINEERING-00-0-2-BASE",
+      "V3-ENGINEERING-00-0-2-EXC"
+    ],
+    "principal_id": "v3-tenant_b-engineering-specialist",
+    "query_family": "multi_document",
+    "query_id": "v3-q-engineering-02",
+    "transition": "DELETE"
+  },
+  {
+    "answerable": true,
+    "applicable": false,
+    "domain": "engineering",
+    "exclusion_reason": "post_transition_multi_source_answerability_undefined",
+    "logical_evidence_ids": [
+      "V3-ENGINEERING-00-0-2-BASE",
+      "V3-ENGINEERING-00-0-2-EXC"
+    ],
+    "principal_id": "v3-tenant_b-engineering-specialist",
+    "query_family": "multi_document",
+    "query_id": "v3-q-engineering-02",
+    "transition": "GRANT"
+  },
+  {
+    "answerable": true,
+    "applicable": false,
+    "domain": "engineering",
+    "exclusion_reason": "post_transition_multi_source_answerability_undefined",
+    "logical_evidence_ids": [
+      "V3-ENGINEERING-00-0-2-BASE",
+      "V3-ENGINEERING-00-0-2-EXC"
+    ],
+    "principal_id": "v3-tenant_b-engineering-specialist",
+    "query_family": "multi_document",
+    "query_id": "v3-q-engineering-02",
+    "transition": "REVOKE"
+  },
+  {
+    "answerable": true,
+    "applicable": false,
+    "domain": "engineering",
+    "exclusion_reason": "post_transition_multi_source_answerability_undefined",
+    "logical_evidence_ids": [
+      "V3-ENGINEERING-00-1-1-BASE",
+      "V3-ENGINEERING-00-1-1-EXC"
+    ],
+    "principal_id": "v3-tenant_b-engineering-specialist",
+    "query_family": "multi_document",
+    "query_id": "v3-q-engineering-04",
+    "transition": "DELETE"
+  },
+  {
+    "answerable": true,
+    "applicable": false,
+    "domain": "engineering",
+    "exclusion_reason": "post_transition_multi_source_answerability_undefined",
+    "logical_evidence_ids": [
+      "V3-ENGINEERING-00-1-1-BASE",
+      "V3-ENGINEERING-00-1-1-EXC"
+    ],
+    "principal_id": "v3-tenant_b-engineering-specialist",
+    "query_family": "multi_document",
+    "query_id": "v3-q-engineering-04",
+    "transition": "GRANT"
+  },
+  {
+    "answerable": true,
+    "applicable": false,
+    "domain": "engineering",
+    "exclusion_reason": "post_transition_multi_source_answerability_undefined",
+    "logical_evidence_ids": [
+      "V3-ENGINEERING-00-1-1-BASE",
+      "V3-ENGINEERING-00-1-1-EXC"
+    ],
+    "principal_id": "v3-tenant_b-engineering-specialist",
+    "query_family": "multi_document",
+    "query_id": "v3-q-engineering-04",
+    "transition": "REVOKE"
+  },
+  {
+    "answerable": true,
+    "applicable": false,
+    "domain": "engineering",
+    "exclusion_reason": "post_transition_multi_source_answerability_undefined",
+    "logical_evidence_ids": [
+      "V3-ENGINEERING-01-0-2-BASE",
+      "V3-ENGINEERING-01-0-2-EXC"
+    ],
+    "principal_id": "v3-tenant_a-engineering-specialist",
+    "query_family": "multi_document",
+    "query_id": "v3-q-engineering-08",
+    "transition": "DELETE"
+  },
+  {
+    "answerable": true,
+    "applicable": false,
+    "domain": "engineering",
+    "exclusion_reason": "post_transition_multi_source_answerability_undefined",
+    "logical_evidence_ids": [
+      "V3-ENGINEERING-01-0-2-BASE",
+      "V3-ENGINEERING-01-0-2-EXC"
+    ],
+    "principal_id": "v3-tenant_a-engineering-specialist",
+    "query_family": "multi_document",
+    "query_id": "v3-q-engineering-08",
+    "transition": "GRANT"
+  },
+  {
+    "answerable": true,
+    "applicable": false,
+    "domain": "engineering",
+    "exclusion_reason": "post_transition_multi_source_answerability_undefined",
+    "logical_evidence_ids": [
+      "V3-ENGINEERING-01-0-2-BASE",
+      "V3-ENGINEERING-01-0-2-EXC"
+    ],
+    "principal_id": "v3-tenant_a-engineering-specialist",
+    "query_family": "multi_document",
+    "query_id": "v3-q-engineering-08",
+    "transition": "REVOKE"
+  },
+  {
+    "answerable": false,
+    "applicable": false,
+    "domain": "engineering",
+    "exclusion_reason": "negative_query_not_semantically_affected_by_primary_transition",
+    "logical_evidence_ids": [
+      "V3-ENGINEERING-02-1-1-EXC"
+    ],
+    "principal_id": "v3-tenant_a-engineering-specialist",
+    "query_family": "negative",
+    "query_id": "v3-q-engineering-16",
+    "transition": "UPDATE"
+  },
+  {
+    "answerable": false,
+    "applicable": false,
+    "domain": "engineering",
+    "exclusion_reason": "negative_query_not_semantically_affected_by_primary_transition",
+    "logical_evidence_ids": [
+      "V3-ENGINEERING-02-1-1-EXC"
+    ],
+    "principal_id": "v3-tenant_a-engineering-specialist",
+    "query_family": "negative",
+    "query_id": "v3-q-engineering-16",
+    "transition": "SUPERSEDE"
+  },
+  {
+    "answerable": false,
+    "applicable": false,
+    "domain": "engineering",
+    "exclusion_reason": "negative_query_not_semantically_affected_by_primary_transition",
+    "logical_evidence_ids": [
+      "V3-ENGINEERING-02-1-1-EXC"
+    ],
+    "principal_id": "v3-tenant_a-engineering-specialist",
+    "query_family": "negative",
+    "query_id": "v3-q-engineering-16",
+    "transition": "DELETE"
+  },
+  {
+    "answerable": false,
+    "applicable": false,
+    "domain": "engineering",
+    "exclusion_reason": "negative_query_not_semantically_affected_by_primary_transition",
+    "logical_evidence_ids": [
+      "V3-ENGINEERING-02-1-1-EXC"
+    ],
+    "principal_id": "v3-tenant_a-engineering-specialist",
+    "query_family": "negative",
+    "query_id": "v3-q-engineering-16",
+    "transition": "GRANT"
+  },
+  {
+    "answerable": false,
+    "applicable": false,
+    "domain": "engineering",
+    "exclusion_reason": "negative_query_not_semantically_affected_by_primary_transition",
+    "logical_evidence_ids": [
+      "V3-ENGINEERING-02-1-1-EXC"
+    ],
+    "principal_id": "v3-tenant_a-engineering-specialist",
+    "query_family": "negative",
+    "query_id": "v3-q-engineering-16",
+    "transition": "REVOKE"
+  },
+  {
+    "answerable": true,
+    "applicable": false,
+    "domain": "engineering",
+    "exclusion_reason": "post_transition_multi_source_answerability_undefined",
+    "logical_evidence_ids": [
+      "V3-ENGINEERING-03-1-1-BASE",
+      "V3-ENGINEERING-03-1-1-EXC"
+    ],
+    "principal_id": "v3-tenant_a-engineering-specialist",
+    "query_family": "multi_document",
+    "query_id": "v3-q-engineering-22",
+    "transition": "DELETE"
+  },
+  {
+    "answerable": true,
+    "applicable": false,
+    "domain": "engineering",
+    "exclusion_reason": "post_transition_multi_source_answerability_undefined",
+    "logical_evidence_ids": [
+      "V3-ENGINEERING-03-1-1-BASE",
+      "V3-ENGINEERING-03-1-1-EXC"
+    ],
+    "principal_id": "v3-tenant_a-engineering-specialist",
+    "query_family": "multi_document",
+    "query_id": "v3-q-engineering-22",
+    "transition": "GRANT"
+  },
+  {
+    "answerable": true,
+    "applicable": false,
+    "domain": "engineering",
+    "exclusion_reason": "post_transition_multi_source_answerability_undefined",
+    "logical_evidence_ids": [
+      "V3-ENGINEERING-03-1-1-BASE",
+      "V3-ENGINEERING-03-1-1-EXC"
+    ],
+    "principal_id": "v3-tenant_a-engineering-specialist",
+    "query_family": "multi_document",
+    "query_id": "v3-q-engineering-22",
+    "transition": "REVOKE"
+  },
+  {
+    "answerable": false,
+    "applicable": false,
+    "domain": "engineering",
+    "exclusion_reason": "negative_query_not_semantically_affected_by_primary_transition",
+    "logical_evidence_ids": [
+      "V3-ENGINEERING-04-1-1-EXC"
+    ],
+    "principal_id": "v3-tenant_a-engineering-specialist",
+    "query_family": "negative",
+    "query_id": "v3-q-engineering-28",
+    "transition": "UPDATE"
+  },
+  {
+    "answerable": false,
+    "applicable": false,
+    "domain": "engineering",
+    "exclusion_reason": "negative_query_not_semantically_affected_by_primary_transition",
+    "logical_evidence_ids": [
+      "V3-ENGINEERING-04-1-1-EXC"
+    ],
+    "principal_id": "v3-tenant_a-engineering-specialist",
+    "query_family": "negative",
+    "query_id": "v3-q-engineering-28",
+    "transition": "SUPERSEDE"
+  },
+  {
+    "answerable": false,
+    "applicable": false,
+    "domain": "engineering",
+    "exclusion_reason": "negative_query_not_semantically_affected_by_primary_transition",
+    "logical_evidence_ids": [
+      "V3-ENGINEERING-04-1-1-EXC"
+    ],
+    "principal_id": "v3-tenant_a-engineering-specialist",
+    "query_family": "negative",
+    "query_id": "v3-q-engineering-28",
+    "transition": "DELETE"
+  },
+  {
+    "answerable": false,
+    "applicable": false,
+    "domain": "engineering",
+    "exclusion_reason": "negative_query_not_semantically_affected_by_primary_transition",
+    "logical_evidence_ids": [
+      "V3-ENGINEERING-04-1-1-EXC"
+    ],
+    "principal_id": "v3-tenant_a-engineering-specialist",
+    "query_family": "negative",
+    "query_id": "v3-q-engineering-28",
+    "transition": "GRANT"
+  },
+  {
+    "answerable": false,
+    "applicable": false,
+    "domain": "engineering",
+    "exclusion_reason": "negative_query_not_semantically_affected_by_primary_transition",
+    "logical_evidence_ids": [
+      "V3-ENGINEERING-04-1-1-EXC"
+    ],
+    "principal_id": "v3-tenant_a-engineering-specialist",
+    "query_family": "negative",
+    "query_id": "v3-q-engineering-28",
+    "transition": "REVOKE"
+  },
+  {
+    "answerable": true,
+    "applicable": false,
+    "domain": "engineering",
+    "exclusion_reason": "post_transition_multi_source_answerability_undefined",
+    "logical_evidence_ids": [
+      "V3-ENGINEERING-00-0-2-BASE",
+      "V3-ENGINEERING-00-0-2-EXC"
+    ],
+    "principal_id": "v3-tenant_b-engineering-specialist",
+    "query_family": "multi_document",
+    "query_id": "v3-q-engineering-32",
+    "transition": "DELETE"
+  },
+  {
+    "answerable": true,
+    "applicable": false,
+    "domain": "engineering",
+    "exclusion_reason": "post_transition_multi_source_answerability_undefined",
+    "logical_evidence_ids": [
+      "V3-ENGINEERING-00-0-2-BASE",
+      "V3-ENGINEERING-00-0-2-EXC"
+    ],
+    "principal_id": "v3-tenant_b-engineering-specialist",
+    "query_family": "multi_document",
+    "query_id": "v3-q-engineering-32",
+    "transition": "GRANT"
+  },
+  {
+    "answerable": true,
+    "applicable": false,
+    "domain": "engineering",
+    "exclusion_reason": "post_transition_multi_source_answerability_undefined",
+    "logical_evidence_ids": [
+      "V3-ENGINEERING-00-0-2-BASE",
+      "V3-ENGINEERING-00-0-2-EXC"
+    ],
+    "principal_id": "v3-tenant_b-engineering-specialist",
+    "query_family": "multi_document",
+    "query_id": "v3-q-engineering-32",
+    "transition": "REVOKE"
+  },
+  {
+    "answerable": true,
+    "applicable": false,
+    "domain": "finance",
+    "exclusion_reason": "post_transition_multi_source_answerability_undefined",
+    "logical_evidence_ids": [
+      "V3-FINANCE-00-0-0-BASE",
+      "V3-FINANCE-00-0-0-EXC"
+    ],
+    "principal_id": "v3-tenant_a-finance-specialist",
+    "query_family": "multi_document",
+    "query_id": "v3-q-finance-00",
+    "transition": "DELETE"
+  },
+  {
+    "answerable": true,
+    "applicable": false,
+    "domain": "finance",
+    "exclusion_reason": "post_transition_multi_source_answerability_undefined",
+    "logical_evidence_ids": [
+      "V3-FINANCE-00-0-0-BASE",
+      "V3-FINANCE-00-0-0-EXC"
+    ],
+    "principal_id": "v3-tenant_a-finance-specialist",
+    "query_family": "multi_document",
+    "query_id": "v3-q-finance-00",
+    "transition": "GRANT"
+  },
+  {
+    "answerable": true,
+    "applicable": false,
+    "domain": "finance",
+    "exclusion_reason": "post_transition_multi_source_answerability_undefined",
+    "logical_evidence_ids": [
+      "V3-FINANCE-00-0-0-BASE",
+      "V3-FINANCE-00-0-0-EXC"
+    ],
+    "principal_id": "v3-tenant_a-finance-specialist",
+    "query_family": "multi_document",
+    "query_id": "v3-q-finance-00",
+    "transition": "REVOKE"
+  },
+  {
+    "answerable": true,
+    "applicable": false,
+    "domain": "finance",
+    "exclusion_reason": "post_transition_multi_source_answerability_undefined",
+    "logical_evidence_ids": [
+      "V3-FINANCE-00-1-0-BASE",
+      "V3-FINANCE-00-1-0-EXC"
+    ],
+    "principal_id": "v3-tenant_b-finance-specialist",
+    "query_family": "multi_document",
+    "query_id": "v3-q-finance-03",
+    "transition": "DELETE"
+  },
+  {
+    "answerable": true,
+    "applicable": false,
+    "domain": "finance",
+    "exclusion_reason": "post_transition_multi_source_answerability_undefined",
+    "logical_evidence_ids": [
+      "V3-FINANCE-00-1-0-BASE",
+      "V3-FINANCE-00-1-0-EXC"
+    ],
+    "principal_id": "v3-tenant_b-finance-specialist",
+    "query_family": "multi_document",
+    "query_id": "v3-q-finance-03",
+    "transition": "GRANT"
+  },
+  {
+    "answerable": true,
+    "applicable": false,
+    "domain": "finance",
+    "exclusion_reason": "post_transition_multi_source_answerability_undefined",
+    "logical_evidence_ids": [
+      "V3-FINANCE-00-1-0-BASE",
+      "V3-FINANCE-00-1-0-EXC"
+    ],
+    "principal_id": "v3-tenant_b-finance-specialist",
+    "query_family": "multi_document",
+    "query_id": "v3-q-finance-03",
+    "transition": "REVOKE"
+  },
+  {
+    "answerable": true,
+    "applicable": false,
+    "domain": "finance",
+    "exclusion_reason": "post_transition_multi_source_answerability_undefined",
+    "logical_evidence_ids": [
+      "V3-FINANCE-01-0-2-BASE",
+      "V3-FINANCE-01-0-2-EXC"
+    ],
+    "principal_id": "v3-tenant_b-finance-specialist",
+    "query_family": "multi_document",
+    "query_id": "v3-q-finance-08",
+    "transition": "DELETE"
+  },
+  {
+    "answerable": true,
+    "applicable": false,
+    "domain": "finance",
+    "exclusion_reason": "post_transition_multi_source_answerability_undefined",
+    "logical_evidence_ids": [
+      "V3-FINANCE-01-0-2-BASE",
+      "V3-FINANCE-01-0-2-EXC"
+    ],
+    "principal_id": "v3-tenant_b-finance-specialist",
+    "query_family": "multi_document",
+    "query_id": "v3-q-finance-08",
+    "transition": "GRANT"
+  },
+  {
+    "answerable": true,
+    "applicable": false,
+    "domain": "finance",
+    "exclusion_reason": "post_transition_multi_source_answerability_undefined",
+    "logical_evidence_ids": [
+      "V3-FINANCE-01-0-2-BASE",
+      "V3-FINANCE-01-0-2-EXC"
+    ],
+    "principal_id": "v3-tenant_b-finance-specialist",
+    "query_family": "multi_document",
+    "query_id": "v3-q-finance-08",
+    "transition": "REVOKE"
+  },
+  {
+    "answerable": true,
+    "applicable": false,
+    "domain": "finance",
+    "exclusion_reason": "post_transition_multi_source_answerability_undefined",
+    "logical_evidence_ids": [
+      "V3-FINANCE-02-1-1-BASE",
+      "V3-FINANCE-02-1-1-EXC"
+    ],
+    "principal_id": "v3-tenant_a-finance-specialist",
+    "query_family": "multi_document",
+    "query_id": "v3-q-finance-16",
+    "transition": "DELETE"
+  },
+  {
+    "answerable": true,
+    "applicable": false,
+    "domain": "finance",
+    "exclusion_reason": "post_transition_multi_source_answerability_undefined",
+    "logical_evidence_ids": [
+      "V3-FINANCE-02-1-1-BASE",
+      "V3-FINANCE-02-1-1-EXC"
+    ],
+    "principal_id": "v3-tenant_a-finance-specialist",
+    "query_family": "multi_document",
+    "query_id": "v3-q-finance-16",
+    "transition": "GRANT"
+  },
+  {
+    "answerable": true,
+    "applicable": false,
+    "domain": "finance",
+    "exclusion_reason": "post_transition_multi_source_answerability_undefined",
+    "logical_evidence_ids": [
+      "V3-FINANCE-02-1-1-BASE",
+      "V3-FINANCE-02-1-1-EXC"
+    ],
+    "principal_id": "v3-tenant_a-finance-specialist",
+    "query_family": "multi_document",
+    "query_id": "v3-q-finance-16",
+    "transition": "REVOKE"
+  },
+  {
+    "answerable": false,
+    "applicable": false,
+    "domain": "finance",
+    "exclusion_reason": "negative_query_not_semantically_affected_by_primary_transition",
+    "logical_evidence_ids": [
+      "V3-FINANCE-04-0-0-EXC"
+    ],
+    "principal_id": "v3-tenant_b-finance-specialist",
+    "query_family": "negative",
+    "query_id": "v3-q-finance-24",
+    "transition": "UPDATE"
+  },
+  {
+    "answerable": false,
+    "applicable": false,
+    "domain": "finance",
+    "exclusion_reason": "negative_query_not_semantically_affected_by_primary_transition",
+    "logical_evidence_ids": [
+      "V3-FINANCE-04-0-0-EXC"
+    ],
+    "principal_id": "v3-tenant_b-finance-specialist",
+    "query_family": "negative",
+    "query_id": "v3-q-finance-24",
+    "transition": "SUPERSEDE"
+  },
+  {
+    "answerable": false,
+    "applicable": false,
+    "domain": "finance",
+    "exclusion_reason": "negative_query_not_semantically_affected_by_primary_transition",
+    "logical_evidence_ids": [
+      "V3-FINANCE-04-0-0-EXC"
+    ],
+    "principal_id": "v3-tenant_b-finance-specialist",
+    "query_family": "negative",
+    "query_id": "v3-q-finance-24",
+    "transition": "DELETE"
+  },
+  {
+    "answerable": false,
+    "applicable": false,
+    "domain": "finance",
+    "exclusion_reason": "negative_query_not_semantically_affected_by_primary_transition",
+    "logical_evidence_ids": [
+      "V3-FINANCE-04-0-0-EXC"
+    ],
+    "principal_id": "v3-tenant_b-finance-specialist",
+    "query_family": "negative",
+    "query_id": "v3-q-finance-24",
+    "transition": "GRANT"
+  },
+  {
+    "answerable": false,
+    "applicable": false,
+    "domain": "finance",
+    "exclusion_reason": "negative_query_not_semantically_affected_by_primary_transition",
+    "logical_evidence_ids": [
+      "V3-FINANCE-04-0-0-EXC"
+    ],
+    "principal_id": "v3-tenant_b-finance-specialist",
+    "query_family": "negative",
+    "query_id": "v3-q-finance-24",
+    "transition": "REVOKE"
+  },
+  {
+    "answerable": true,
+    "applicable": false,
+    "domain": "finance",
+    "exclusion_reason": "post_transition_multi_source_answerability_undefined",
+    "logical_evidence_ids": [
+      "V3-FINANCE-04-1-0-BASE",
+      "V3-FINANCE-04-1-0-EXC"
+    ],
+    "principal_id": "v3-tenant_b-finance-specialist",
+    "query_family": "multi_document",
+    "query_id": "v3-q-finance-27",
+    "transition": "DELETE"
+  },
+  {
+    "answerable": true,
+    "applicable": false,
+    "domain": "finance",
+    "exclusion_reason": "post_transition_multi_source_answerability_undefined",
+    "logical_evidence_ids": [
+      "V3-FINANCE-04-1-0-BASE",
+      "V3-FINANCE-04-1-0-EXC"
+    ],
+    "principal_id": "v3-tenant_b-finance-specialist",
+    "query_family": "multi_document",
+    "query_id": "v3-q-finance-27",
+    "transition": "GRANT"
+  },
+  {
+    "answerable": true,
+    "applicable": false,
+    "domain": "finance",
+    "exclusion_reason": "post_transition_multi_source_answerability_undefined",
+    "logical_evidence_ids": [
+      "V3-FINANCE-04-1-0-BASE",
+      "V3-FINANCE-04-1-0-EXC"
+    ],
+    "principal_id": "v3-tenant_b-finance-specialist",
+    "query_family": "multi_document",
+    "query_id": "v3-q-finance-27",
+    "transition": "REVOKE"
+  },
+  {
+    "answerable": false,
+    "applicable": false,
+    "domain": "finance",
+    "exclusion_reason": "negative_query_not_semantically_affected_by_primary_transition",
+    "logical_evidence_ids": [
+      "V3-FINANCE-00-0-2-EXC"
+    ],
+    "principal_id": "v3-tenant_b-finance-specialist",
+    "query_family": "negative",
+    "query_id": "v3-q-finance-32",
+    "transition": "UPDATE"
+  },
+  {
+    "answerable": false,
+    "applicable": false,
+    "domain": "finance",
+    "exclusion_reason": "negative_query_not_semantically_affected_by_primary_transition",
+    "logical_evidence_ids": [
+      "V3-FINANCE-00-0-2-EXC"
+    ],
+    "principal_id": "v3-tenant_b-finance-specialist",
+    "query_family": "negative",
+    "query_id": "v3-q-finance-32",
+    "transition": "SUPERSEDE"
+  },
+  {
+    "answerable": false,
+    "applicable": false,
+    "domain": "finance",
+    "exclusion_reason": "negative_query_not_semantically_affected_by_primary_transition",
+    "logical_evidence_ids": [
+      "V3-FINANCE-00-0-2-EXC"
+    ],
+    "principal_id": "v3-tenant_b-finance-specialist",
+    "query_family": "negative",
+    "query_id": "v3-q-finance-32",
+    "transition": "DELETE"
+  },
+  {
+    "answerable": false,
+    "applicable": false,
+    "domain": "finance",
+    "exclusion_reason": "negative_query_not_semantically_affected_by_primary_transition",
+    "logical_evidence_ids": [
+      "V3-FINANCE-00-0-2-EXC"
+    ],
+    "principal_id": "v3-tenant_b-finance-specialist",
+    "query_family": "negative",
+    "query_id": "v3-q-finance-32",
+    "transition": "GRANT"
+  },
+  {
+    "answerable": false,
+    "applicable": false,
+    "domain": "finance",
+    "exclusion_reason": "negative_query_not_semantically_affected_by_primary_transition",
+    "logical_evidence_ids": [
+      "V3-FINANCE-00-0-2-EXC"
+    ],
+    "principal_id": "v3-tenant_b-finance-specialist",
+    "query_family": "negative",
+    "query_id": "v3-q-finance-32",
+    "transition": "REVOKE"
+  },
+  {
+    "answerable": false,
+    "applicable": false,
+    "domain": "hr",
+    "exclusion_reason": "negative_query_not_semantically_affected_by_primary_transition",
+    "logical_evidence_ids": [
+      "V3-HR-00-0-2-EXC"
+    ],
+    "principal_id": "v3-tenant_a-hr-specialist",
+    "query_family": "negative",
+    "query_id": "v3-q-hr-02",
+    "transition": "UPDATE"
+  },
+  {
+    "answerable": false,
+    "applicable": false,
+    "domain": "hr",
+    "exclusion_reason": "negative_query_not_semantically_affected_by_primary_transition",
+    "logical_evidence_ids": [
+      "V3-HR-00-0-2-EXC"
+    ],
+    "principal_id": "v3-tenant_a-hr-specialist",
+    "query_family": "negative",
+    "query_id": "v3-q-hr-02",
+    "transition": "SUPERSEDE"
+  },
+  {
+    "answerable": false,
+    "applicable": false,
+    "domain": "hr",
+    "exclusion_reason": "negative_query_not_semantically_affected_by_primary_transition",
+    "logical_evidence_ids": [
+      "V3-HR-00-0-2-EXC"
+    ],
+    "principal_id": "v3-tenant_a-hr-specialist",
+    "query_family": "negative",
+    "query_id": "v3-q-hr-02",
+    "transition": "DELETE"
+  },
+  {
+    "answerable": false,
+    "applicable": false,
+    "domain": "hr",
+    "exclusion_reason": "negative_query_not_semantically_affected_by_primary_transition",
+    "logical_evidence_ids": [
+      "V3-HR-00-0-2-EXC"
+    ],
+    "principal_id": "v3-tenant_a-hr-specialist",
+    "query_family": "negative",
+    "query_id": "v3-q-hr-02",
+    "transition": "GRANT"
+  },
+  {
+    "answerable": false,
+    "applicable": false,
+    "domain": "hr",
+    "exclusion_reason": "negative_query_not_semantically_affected_by_primary_transition",
+    "logical_evidence_ids": [
+      "V3-HR-00-0-2-EXC"
+    ],
+    "principal_id": "v3-tenant_a-hr-specialist",
+    "query_family": "negative",
+    "query_id": "v3-q-hr-02",
+    "transition": "REVOKE"
+  },
+  {
+    "answerable": true,
+    "applicable": false,
+    "domain": "hr",
+    "exclusion_reason": "post_transition_multi_source_answerability_undefined",
+    "logical_evidence_ids": [
+      "V3-HR-02-1-1-BASE",
+      "V3-HR-02-1-1-EXC"
+    ],
+    "principal_id": "v3-tenant_b-hr-specialist",
+    "query_family": "multi_document",
+    "query_id": "v3-q-hr-16",
+    "transition": "DELETE"
+  },
+  {
+    "answerable": true,
+    "applicable": false,
+    "domain": "hr",
+    "exclusion_reason": "post_transition_multi_source_answerability_undefined",
+    "logical_evidence_ids": [
+      "V3-HR-02-1-1-BASE",
+      "V3-HR-02-1-1-EXC"
+    ],
+    "principal_id": "v3-tenant_b-hr-specialist",
+    "query_family": "multi_document",
+    "query_id": "v3-q-hr-16",
+    "transition": "GRANT"
+  },
+  {
+    "answerable": true,
+    "applicable": false,
+    "domain": "hr",
+    "exclusion_reason": "post_transition_multi_source_answerability_undefined",
+    "logical_evidence_ids": [
+      "V3-HR-02-1-1-BASE",
+      "V3-HR-02-1-1-EXC"
+    ],
+    "principal_id": "v3-tenant_b-hr-specialist",
+    "query_family": "multi_document",
+    "query_id": "v3-q-hr-16",
+    "transition": "REVOKE"
+  },
+  {
+    "answerable": false,
+    "applicable": false,
+    "domain": "hr",
+    "exclusion_reason": "negative_query_not_semantically_affected_by_primary_transition",
+    "logical_evidence_ids": [
+      "V3-HR-02-1-2-EXC"
+    ],
+    "principal_id": "v3-tenant_b-hr-specialist",
+    "query_family": "negative",
+    "query_id": "v3-q-hr-17",
+    "transition": "UPDATE"
+  },
+  {
+    "answerable": false,
+    "applicable": false,
+    "domain": "hr",
+    "exclusion_reason": "negative_query_not_semantically_affected_by_primary_transition",
+    "logical_evidence_ids": [
+      "V3-HR-02-1-2-EXC"
+    ],
+    "principal_id": "v3-tenant_b-hr-specialist",
+    "query_family": "negative",
+    "query_id": "v3-q-hr-17",
+    "transition": "SUPERSEDE"
+  },
+  {
+    "answerable": false,
+    "applicable": false,
+    "domain": "hr",
+    "exclusion_reason": "negative_query_not_semantically_affected_by_primary_transition",
+    "logical_evidence_ids": [
+      "V3-HR-02-1-2-EXC"
+    ],
+    "principal_id": "v3-tenant_b-hr-specialist",
+    "query_family": "negative",
+    "query_id": "v3-q-hr-17",
+    "transition": "DELETE"
+  },
+  {
+    "answerable": false,
+    "applicable": false,
+    "domain": "hr",
+    "exclusion_reason": "negative_query_not_semantically_affected_by_primary_transition",
+    "logical_evidence_ids": [
+      "V3-HR-02-1-2-EXC"
+    ],
+    "principal_id": "v3-tenant_b-hr-specialist",
+    "query_family": "negative",
+    "query_id": "v3-q-hr-17",
+    "transition": "GRANT"
+  },
+  {
+    "answerable": false,
+    "applicable": false,
+    "domain": "hr",
+    "exclusion_reason": "negative_query_not_semantically_affected_by_primary_transition",
+    "logical_evidence_ids": [
+      "V3-HR-02-1-2-EXC"
+    ],
+    "principal_id": "v3-tenant_b-hr-specialist",
+    "query_family": "negative",
+    "query_id": "v3-q-hr-17",
+    "transition": "REVOKE"
+  },
+  {
+    "answerable": true,
+    "applicable": false,
+    "domain": "hr",
+    "exclusion_reason": "post_transition_multi_source_answerability_undefined",
+    "logical_evidence_ids": [
+      "V3-HR-04-0-1-BASE",
+      "V3-HR-04-0-1-EXC"
+    ],
+    "principal_id": "v3-tenant_a-hr-specialist",
+    "query_family": "multi_document",
+    "query_id": "v3-q-hr-25",
+    "transition": "DELETE"
+  },
+  {
+    "answerable": true,
+    "applicable": false,
+    "domain": "hr",
+    "exclusion_reason": "post_transition_multi_source_answerability_undefined",
+    "logical_evidence_ids": [
+      "V3-HR-04-0-1-BASE",
+      "V3-HR-04-0-1-EXC"
+    ],
+    "principal_id": "v3-tenant_a-hr-specialist",
+    "query_family": "multi_document",
+    "query_id": "v3-q-hr-25",
+    "transition": "GRANT"
+  },
+  {
+    "answerable": true,
+    "applicable": false,
+    "domain": "hr",
+    "exclusion_reason": "post_transition_multi_source_answerability_undefined",
+    "logical_evidence_ids": [
+      "V3-HR-04-0-1-BASE",
+      "V3-HR-04-0-1-EXC"
+    ],
+    "principal_id": "v3-tenant_a-hr-specialist",
+    "query_family": "multi_document",
+    "query_id": "v3-q-hr-25",
+    "transition": "REVOKE"
+  },
+  {
+    "answerable": true,
+    "applicable": false,
+    "domain": "hr",
+    "exclusion_reason": "post_transition_multi_source_answerability_undefined",
+    "logical_evidence_ids": [
+      "V3-HR-04-1-2-BASE",
+      "V3-HR-04-1-2-EXC"
+    ],
+    "principal_id": "v3-tenant_a-hr-specialist",
+    "query_family": "multi_document",
+    "query_id": "v3-q-hr-29",
+    "transition": "DELETE"
+  },
+  {
+    "answerable": true,
+    "applicable": false,
+    "domain": "hr",
+    "exclusion_reason": "post_transition_multi_source_answerability_undefined",
+    "logical_evidence_ids": [
+      "V3-HR-04-1-2-BASE",
+      "V3-HR-04-1-2-EXC"
+    ],
+    "principal_id": "v3-tenant_a-hr-specialist",
+    "query_family": "multi_document",
+    "query_id": "v3-q-hr-29",
+    "transition": "GRANT"
+  },
+  {
+    "answerable": true,
+    "applicable": false,
+    "domain": "hr",
+    "exclusion_reason": "post_transition_multi_source_answerability_undefined",
+    "logical_evidence_ids": [
+      "V3-HR-04-1-2-BASE",
+      "V3-HR-04-1-2-EXC"
+    ],
+    "principal_id": "v3-tenant_a-hr-specialist",
+    "query_family": "multi_document",
+    "query_id": "v3-q-hr-29",
+    "transition": "REVOKE"
+  },
+  {
+    "answerable": true,
+    "applicable": false,
+    "domain": "hr",
+    "exclusion_reason": "post_transition_multi_source_answerability_undefined",
+    "logical_evidence_ids": [
+      "V3-HR-00-0-1-BASE",
+      "V3-HR-00-0-1-EXC"
+    ],
+    "principal_id": "v3-tenant_a-hr-specialist",
+    "query_family": "multi_document",
+    "query_id": "v3-q-hr-31",
+    "transition": "DELETE"
+  },
+  {
+    "answerable": true,
+    "applicable": false,
+    "domain": "hr",
+    "exclusion_reason": "post_transition_multi_source_answerability_undefined",
+    "logical_evidence_ids": [
+      "V3-HR-00-0-1-BASE",
+      "V3-HR-00-0-1-EXC"
+    ],
+    "principal_id": "v3-tenant_a-hr-specialist",
+    "query_family": "multi_document",
+    "query_id": "v3-q-hr-31",
+    "transition": "GRANT"
+  },
+  {
+    "answerable": true,
+    "applicable": false,
+    "domain": "hr",
+    "exclusion_reason": "post_transition_multi_source_answerability_undefined",
+    "logical_evidence_ids": [
+      "V3-HR-00-0-1-BASE",
+      "V3-HR-00-0-1-EXC"
+    ],
+    "principal_id": "v3-tenant_a-hr-specialist",
+    "query_family": "multi_document",
+    "query_id": "v3-q-hr-31",
+    "transition": "REVOKE"
+  },
+  {
+    "answerable": true,
+    "applicable": false,
+    "domain": "hr",
+    "exclusion_reason": "post_transition_multi_source_answerability_undefined",
+    "logical_evidence_ids": [
+      "V3-HR-00-1-1-BASE",
+      "V3-HR-00-1-1-EXC"
+    ],
+    "principal_id": "v3-tenant_b-hr-specialist",
+    "query_family": "multi_document",
+    "query_id": "v3-q-hr-34",
+    "transition": "DELETE"
+  },
+  {
+    "answerable": true,
+    "applicable": false,
+    "domain": "hr",
+    "exclusion_reason": "post_transition_multi_source_answerability_undefined",
+    "logical_evidence_ids": [
+      "V3-HR-00-1-1-BASE",
+      "V3-HR-00-1-1-EXC"
+    ],
+    "principal_id": "v3-tenant_b-hr-specialist",
+    "query_family": "multi_document",
+    "query_id": "v3-q-hr-34",
+    "transition": "GRANT"
+  },
+  {
+    "answerable": true,
+    "applicable": false,
+    "domain": "hr",
+    "exclusion_reason": "post_transition_multi_source_answerability_undefined",
+    "logical_evidence_ids": [
+      "V3-HR-00-1-1-BASE",
+      "V3-HR-00-1-1-EXC"
+    ],
+    "principal_id": "v3-tenant_b-hr-specialist",
+    "query_family": "multi_document",
+    "query_id": "v3-q-hr-34",
+    "transition": "REVOKE"
+  },
+  {
+    "answerable": true,
+    "applicable": false,
+    "domain": "legal",
+    "exclusion_reason": "post_transition_multi_source_answerability_undefined",
+    "logical_evidence_ids": [
+      "V3-LEGAL-01-0-1-BASE",
+      "V3-LEGAL-01-0-1-EXC"
+    ],
+    "principal_id": "v3-tenant_a-legal-specialist",
+    "query_family": "multi_document",
+    "query_id": "v3-q-legal-07",
+    "transition": "DELETE"
+  },
+  {
+    "answerable": true,
+    "applicable": false,
+    "domain": "legal",
+    "exclusion_reason": "post_transition_multi_source_answerability_undefined",
+    "logical_evidence_ids": [
+      "V3-LEGAL-01-0-1-BASE",
+      "V3-LEGAL-01-0-1-EXC"
+    ],
+    "principal_id": "v3-tenant_a-legal-specialist",
+    "query_family": "multi_document",
+    "query_id": "v3-q-legal-07",
+    "transition": "GRANT"
+  },
+  {
+    "answerable": true,
+    "applicable": false,
+    "domain": "legal",
+    "exclusion_reason": "post_transition_multi_source_answerability_undefined",
+    "logical_evidence_ids": [
+      "V3-LEGAL-01-0-1-BASE",
+      "V3-LEGAL-01-0-1-EXC"
+    ],
+    "principal_id": "v3-tenant_a-legal-specialist",
+    "query_family": "multi_document",
+    "query_id": "v3-q-legal-07",
+    "transition": "REVOKE"
+  },
+  {
+    "answerable": true,
+    "applicable": false,
+    "domain": "legal",
+    "exclusion_reason": "post_transition_multi_source_answerability_undefined",
+    "logical_evidence_ids": [
+      "V3-LEGAL-02-1-2-BASE",
+      "V3-LEGAL-02-1-2-EXC"
+    ],
+    "principal_id": "v3-tenant_b-legal-specialist",
+    "query_family": "multi_document",
+    "query_id": "v3-q-legal-17",
+    "transition": "DELETE"
+  },
+  {
+    "answerable": true,
+    "applicable": false,
+    "domain": "legal",
+    "exclusion_reason": "post_transition_multi_source_answerability_undefined",
+    "logical_evidence_ids": [
+      "V3-LEGAL-02-1-2-BASE",
+      "V3-LEGAL-02-1-2-EXC"
+    ],
+    "principal_id": "v3-tenant_b-legal-specialist",
+    "query_family": "multi_document",
+    "query_id": "v3-q-legal-17",
+    "transition": "GRANT"
+  },
+  {
+    "answerable": true,
+    "applicable": false,
+    "domain": "legal",
+    "exclusion_reason": "post_transition_multi_source_answerability_undefined",
+    "logical_evidence_ids": [
+      "V3-LEGAL-02-1-2-BASE",
+      "V3-LEGAL-02-1-2-EXC"
+    ],
+    "principal_id": "v3-tenant_b-legal-specialist",
+    "query_family": "multi_document",
+    "query_id": "v3-q-legal-17",
+    "transition": "REVOKE"
+  },
+  {
+    "answerable": true,
+    "applicable": false,
+    "domain": "legal",
+    "exclusion_reason": "post_transition_multi_source_answerability_undefined",
+    "logical_evidence_ids": [
+      "V3-LEGAL-03-1-1-BASE",
+      "V3-LEGAL-03-1-1-EXC"
+    ],
+    "principal_id": "v3-tenant_b-legal-specialist",
+    "query_family": "multi_document",
+    "query_id": "v3-q-legal-22",
+    "transition": "DELETE"
+  },
+  {
+    "answerable": true,
+    "applicable": false,
+    "domain": "legal",
+    "exclusion_reason": "post_transition_multi_source_answerability_undefined",
+    "logical_evidence_ids": [
+      "V3-LEGAL-03-1-1-BASE",
+      "V3-LEGAL-03-1-1-EXC"
+    ],
+    "principal_id": "v3-tenant_b-legal-specialist",
+    "query_family": "multi_document",
+    "query_id": "v3-q-legal-22",
+    "transition": "GRANT"
+  },
+  {
+    "answerable": true,
+    "applicable": false,
+    "domain": "legal",
+    "exclusion_reason": "post_transition_multi_source_answerability_undefined",
+    "logical_evidence_ids": [
+      "V3-LEGAL-03-1-1-BASE",
+      "V3-LEGAL-03-1-1-EXC"
+    ],
+    "principal_id": "v3-tenant_b-legal-specialist",
+    "query_family": "multi_document",
+    "query_id": "v3-q-legal-22",
+    "transition": "REVOKE"
+  },
+  {
+    "answerable": false,
+    "applicable": false,
+    "domain": "legal",
+    "exclusion_reason": "negative_query_not_semantically_affected_by_primary_transition",
+    "logical_evidence_ids": [
+      "V3-LEGAL-04-0-2-EXC"
+    ],
+    "principal_id": "v3-tenant_b-legal-specialist",
+    "query_family": "negative",
+    "query_id": "v3-q-legal-26",
+    "transition": "UPDATE"
+  },
+  {
+    "answerable": false,
+    "applicable": false,
+    "domain": "legal",
+    "exclusion_reason": "negative_query_not_semantically_affected_by_primary_transition",
+    "logical_evidence_ids": [
+      "V3-LEGAL-04-0-2-EXC"
+    ],
+    "principal_id": "v3-tenant_b-legal-specialist",
+    "query_family": "negative",
+    "query_id": "v3-q-legal-26",
+    "transition": "SUPERSEDE"
+  },
+  {
+    "answerable": false,
+    "applicable": false,
+    "domain": "legal",
+    "exclusion_reason": "negative_query_not_semantically_affected_by_primary_transition",
+    "logical_evidence_ids": [
+      "V3-LEGAL-04-0-2-EXC"
+    ],
+    "principal_id": "v3-tenant_b-legal-specialist",
+    "query_family": "negative",
+    "query_id": "v3-q-legal-26",
+    "transition": "DELETE"
+  },
+  {
+    "answerable": false,
+    "applicable": false,
+    "domain": "legal",
+    "exclusion_reason": "negative_query_not_semantically_affected_by_primary_transition",
+    "logical_evidence_ids": [
+      "V3-LEGAL-04-0-2-EXC"
+    ],
+    "principal_id": "v3-tenant_b-legal-specialist",
+    "query_family": "negative",
+    "query_id": "v3-q-legal-26",
+    "transition": "GRANT"
+  },
+  {
+    "answerable": false,
+    "applicable": false,
+    "domain": "legal",
+    "exclusion_reason": "negative_query_not_semantically_affected_by_primary_transition",
+    "logical_evidence_ids": [
+      "V3-LEGAL-04-0-2-EXC"
+    ],
+    "principal_id": "v3-tenant_b-legal-specialist",
+    "query_family": "negative",
+    "query_id": "v3-q-legal-26",
+    "transition": "REVOKE"
+  },
+  {
+    "answerable": true,
+    "applicable": false,
+    "domain": "legal",
+    "exclusion_reason": "post_transition_multi_source_answerability_undefined",
+    "logical_evidence_ids": [
+      "V3-LEGAL-04-1-0-BASE",
+      "V3-LEGAL-04-1-0-EXC"
+    ],
+    "principal_id": "v3-tenant_b-legal-specialist",
+    "query_family": "multi_document",
+    "query_id": "v3-q-legal-27",
+    "transition": "DELETE"
+  },
+  {
+    "answerable": true,
+    "applicable": false,
+    "domain": "legal",
+    "exclusion_reason": "post_transition_multi_source_answerability_undefined",
+    "logical_evidence_ids": [
+      "V3-LEGAL-04-1-0-BASE",
+      "V3-LEGAL-04-1-0-EXC"
+    ],
+    "principal_id": "v3-tenant_b-legal-specialist",
+    "query_family": "multi_document",
+    "query_id": "v3-q-legal-27",
+    "transition": "GRANT"
+  },
+  {
+    "answerable": true,
+    "applicable": false,
+    "domain": "legal",
+    "exclusion_reason": "post_transition_multi_source_answerability_undefined",
+    "logical_evidence_ids": [
+      "V3-LEGAL-04-1-0-BASE",
+      "V3-LEGAL-04-1-0-EXC"
+    ],
+    "principal_id": "v3-tenant_b-legal-specialist",
+    "query_family": "multi_document",
+    "query_id": "v3-q-legal-27",
+    "transition": "REVOKE"
+  },
+  {
+    "answerable": false,
+    "applicable": false,
+    "domain": "legal",
+    "exclusion_reason": "negative_query_not_semantically_affected_by_primary_transition",
+    "logical_evidence_ids": [
+      "V3-LEGAL-04-1-2-EXC"
+    ],
+    "principal_id": "v3-tenant_a-legal-specialist",
+    "query_family": "negative",
+    "query_id": "v3-q-legal-29",
+    "transition": "UPDATE"
+  },
+  {
+    "answerable": false,
+    "applicable": false,
+    "domain": "legal",
+    "exclusion_reason": "negative_query_not_semantically_affected_by_primary_transition",
+    "logical_evidence_ids": [
+      "V3-LEGAL-04-1-2-EXC"
+    ],
+    "principal_id": "v3-tenant_a-legal-specialist",
+    "query_family": "negative",
+    "query_id": "v3-q-legal-29",
+    "transition": "SUPERSEDE"
+  },
+  {
+    "answerable": false,
+    "applicable": false,
+    "domain": "legal",
+    "exclusion_reason": "negative_query_not_semantically_affected_by_primary_transition",
+    "logical_evidence_ids": [
+      "V3-LEGAL-04-1-2-EXC"
+    ],
+    "principal_id": "v3-tenant_a-legal-specialist",
+    "query_family": "negative",
+    "query_id": "v3-q-legal-29",
+    "transition": "DELETE"
+  },
+  {
+    "answerable": false,
+    "applicable": false,
+    "domain": "legal",
+    "exclusion_reason": "negative_query_not_semantically_affected_by_primary_transition",
+    "logical_evidence_ids": [
+      "V3-LEGAL-04-1-2-EXC"
+    ],
+    "principal_id": "v3-tenant_a-legal-specialist",
+    "query_family": "negative",
+    "query_id": "v3-q-legal-29",
+    "transition": "GRANT"
+  },
+  {
+    "answerable": false,
+    "applicable": false,
+    "domain": "legal",
+    "exclusion_reason": "negative_query_not_semantically_affected_by_primary_transition",
+    "logical_evidence_ids": [
+      "V3-LEGAL-04-1-2-EXC"
+    ],
+    "principal_id": "v3-tenant_a-legal-specialist",
+    "query_family": "negative",
+    "query_id": "v3-q-legal-29",
+    "transition": "REVOKE"
+  },
+  {
+    "answerable": true,
+    "applicable": false,
+    "domain": "legal",
+    "exclusion_reason": "post_transition_multi_source_answerability_undefined",
+    "logical_evidence_ids": [
+      "V3-LEGAL-00-1-1-BASE",
+      "V3-LEGAL-00-1-1-EXC"
+    ],
+    "principal_id": "v3-tenant_a-legal-specialist",
+    "query_family": "multi_document",
+    "query_id": "v3-q-legal-34",
+    "transition": "DELETE"
+  },
+  {
+    "answerable": true,
+    "applicable": false,
+    "domain": "legal",
+    "exclusion_reason": "post_transition_multi_source_answerability_undefined",
+    "logical_evidence_ids": [
+      "V3-LEGAL-00-1-1-BASE",
+      "V3-LEGAL-00-1-1-EXC"
+    ],
+    "principal_id": "v3-tenant_a-legal-specialist",
+    "query_family": "multi_document",
+    "query_id": "v3-q-legal-34",
+    "transition": "GRANT"
+  },
+  {
+    "answerable": true,
+    "applicable": false,
+    "domain": "legal",
+    "exclusion_reason": "post_transition_multi_source_answerability_undefined",
+    "logical_evidence_ids": [
+      "V3-LEGAL-00-1-1-BASE",
+      "V3-LEGAL-00-1-1-EXC"
+    ],
+    "principal_id": "v3-tenant_a-legal-specialist",
+    "query_family": "multi_document",
+    "query_id": "v3-q-legal-34",
+    "transition": "REVOKE"
+  },
+  {
+    "answerable": true,
+    "applicable": false,
+    "domain": "sales",
+    "exclusion_reason": "post_transition_multi_source_answerability_undefined",
+    "logical_evidence_ids": [
+      "V3-SALES-00-0-1-BASE",
+      "V3-SALES-00-0-1-EXC"
+    ],
+    "principal_id": "v3-tenant_a-sales-specialist",
+    "query_family": "multi_document",
+    "query_id": "v3-q-sales-01",
+    "transition": "DELETE"
+  },
+  {
+    "answerable": true,
+    "applicable": false,
+    "domain": "sales",
+    "exclusion_reason": "post_transition_multi_source_answerability_undefined",
+    "logical_evidence_ids": [
+      "V3-SALES-00-0-1-BASE",
+      "V3-SALES-00-0-1-EXC"
+    ],
+    "principal_id": "v3-tenant_a-sales-specialist",
+    "query_family": "multi_document",
+    "query_id": "v3-q-sales-01",
+    "transition": "GRANT"
+  },
+  {
+    "answerable": true,
+    "applicable": false,
+    "domain": "sales",
+    "exclusion_reason": "post_transition_multi_source_answerability_undefined",
+    "logical_evidence_ids": [
+      "V3-SALES-00-0-1-BASE",
+      "V3-SALES-00-0-1-EXC"
+    ],
+    "principal_id": "v3-tenant_a-sales-specialist",
+    "query_family": "multi_document",
+    "query_id": "v3-q-sales-01",
+    "transition": "REVOKE"
+  },
+  {
+    "answerable": true,
+    "applicable": false,
+    "domain": "sales",
+    "exclusion_reason": "post_transition_multi_source_answerability_undefined",
+    "logical_evidence_ids": [
+      "V3-SALES-02-0-0-BASE",
+      "V3-SALES-02-0-0-EXC"
+    ],
+    "principal_id": "v3-tenant_b-sales-specialist",
+    "query_family": "multi_document",
+    "query_id": "v3-q-sales-12",
+    "transition": "DELETE"
+  },
+  {
+    "answerable": true,
+    "applicable": false,
+    "domain": "sales",
+    "exclusion_reason": "post_transition_multi_source_answerability_undefined",
+    "logical_evidence_ids": [
+      "V3-SALES-02-0-0-BASE",
+      "V3-SALES-02-0-0-EXC"
+    ],
+    "principal_id": "v3-tenant_b-sales-specialist",
+    "query_family": "multi_document",
+    "query_id": "v3-q-sales-12",
+    "transition": "GRANT"
+  },
+  {
+    "answerable": true,
+    "applicable": false,
+    "domain": "sales",
+    "exclusion_reason": "post_transition_multi_source_answerability_undefined",
+    "logical_evidence_ids": [
+      "V3-SALES-02-0-0-BASE",
+      "V3-SALES-02-0-0-EXC"
+    ],
+    "principal_id": "v3-tenant_b-sales-specialist",
+    "query_family": "multi_document",
+    "query_id": "v3-q-sales-12",
+    "transition": "REVOKE"
+  },
+  {
+    "answerable": false,
+    "applicable": false,
+    "domain": "sales",
+    "exclusion_reason": "negative_query_not_semantically_affected_by_primary_transition",
+    "logical_evidence_ids": [
+      "V3-SALES-02-0-1-EXC"
+    ],
+    "principal_id": "v3-tenant_b-sales-specialist",
+    "query_family": "negative",
+    "query_id": "v3-q-sales-13",
+    "transition": "UPDATE"
+  },
+  {
+    "answerable": false,
+    "applicable": false,
+    "domain": "sales",
+    "exclusion_reason": "negative_query_not_semantically_affected_by_primary_transition",
+    "logical_evidence_ids": [
+      "V3-SALES-02-0-1-EXC"
+    ],
+    "principal_id": "v3-tenant_b-sales-specialist",
+    "query_family": "negative",
+    "query_id": "v3-q-sales-13",
+    "transition": "SUPERSEDE"
+  },
+  {
+    "answerable": false,
+    "applicable": false,
+    "domain": "sales",
+    "exclusion_reason": "negative_query_not_semantically_affected_by_primary_transition",
+    "logical_evidence_ids": [
+      "V3-SALES-02-0-1-EXC"
+    ],
+    "principal_id": "v3-tenant_b-sales-specialist",
+    "query_family": "negative",
+    "query_id": "v3-q-sales-13",
+    "transition": "DELETE"
+  },
+  {
+    "answerable": false,
+    "applicable": false,
+    "domain": "sales",
+    "exclusion_reason": "negative_query_not_semantically_affected_by_primary_transition",
+    "logical_evidence_ids": [
+      "V3-SALES-02-0-1-EXC"
+    ],
+    "principal_id": "v3-tenant_b-sales-specialist",
+    "query_family": "negative",
+    "query_id": "v3-q-sales-13",
+    "transition": "GRANT"
+  },
+  {
+    "answerable": false,
+    "applicable": false,
+    "domain": "sales",
+    "exclusion_reason": "negative_query_not_semantically_affected_by_primary_transition",
+    "logical_evidence_ids": [
+      "V3-SALES-02-0-1-EXC"
+    ],
+    "principal_id": "v3-tenant_b-sales-specialist",
+    "query_family": "negative",
+    "query_id": "v3-q-sales-13",
+    "transition": "REVOKE"
+  },
+  {
+    "answerable": true,
+    "applicable": false,
+    "domain": "sales",
+    "exclusion_reason": "post_transition_multi_source_answerability_undefined",
+    "logical_evidence_ids": [
+      "V3-SALES-02-1-1-BASE",
+      "V3-SALES-02-1-1-EXC"
+    ],
+    "principal_id": "v3-tenant_b-sales-specialist",
+    "query_family": "multi_document",
+    "query_id": "v3-q-sales-16",
+    "transition": "DELETE"
+  },
+  {
+    "answerable": true,
+    "applicable": false,
+    "domain": "sales",
+    "exclusion_reason": "post_transition_multi_source_answerability_undefined",
+    "logical_evidence_ids": [
+      "V3-SALES-02-1-1-BASE",
+      "V3-SALES-02-1-1-EXC"
+    ],
+    "principal_id": "v3-tenant_b-sales-specialist",
+    "query_family": "multi_document",
+    "query_id": "v3-q-sales-16",
+    "transition": "GRANT"
+  },
+  {
+    "answerable": true,
+    "applicable": false,
+    "domain": "sales",
+    "exclusion_reason": "post_transition_multi_source_answerability_undefined",
+    "logical_evidence_ids": [
+      "V3-SALES-02-1-1-BASE",
+      "V3-SALES-02-1-1-EXC"
+    ],
+    "principal_id": "v3-tenant_b-sales-specialist",
+    "query_family": "multi_document",
+    "query_id": "v3-q-sales-16",
+    "transition": "REVOKE"
+  },
+  {
+    "answerable": false,
+    "applicable": false,
+    "domain": "sales",
+    "exclusion_reason": "negative_query_not_semantically_affected_by_primary_transition",
+    "logical_evidence_ids": [
+      "V3-SALES-00-0-1-EXC"
+    ],
+    "principal_id": "v3-tenant_b-sales-specialist",
+    "query_family": "negative",
+    "query_id": "v3-q-sales-31",
+    "transition": "UPDATE"
+  },
+  {
+    "answerable": false,
+    "applicable": false,
+    "domain": "sales",
+    "exclusion_reason": "negative_query_not_semantically_affected_by_primary_transition",
+    "logical_evidence_ids": [
+      "V3-SALES-00-0-1-EXC"
+    ],
+    "principal_id": "v3-tenant_b-sales-specialist",
+    "query_family": "negative",
+    "query_id": "v3-q-sales-31",
+    "transition": "SUPERSEDE"
+  },
+  {
+    "answerable": false,
+    "applicable": false,
+    "domain": "sales",
+    "exclusion_reason": "negative_query_not_semantically_affected_by_primary_transition",
+    "logical_evidence_ids": [
+      "V3-SALES-00-0-1-EXC"
+    ],
+    "principal_id": "v3-tenant_b-sales-specialist",
+    "query_family": "negative",
+    "query_id": "v3-q-sales-31",
+    "transition": "DELETE"
+  },
+  {
+    "answerable": false,
+    "applicable": false,
+    "domain": "sales",
+    "exclusion_reason": "negative_query_not_semantically_affected_by_primary_transition",
+    "logical_evidence_ids": [
+      "V3-SALES-00-0-1-EXC"
+    ],
+    "principal_id": "v3-tenant_b-sales-specialist",
+    "query_family": "negative",
+    "query_id": "v3-q-sales-31",
+    "transition": "GRANT"
+  },
+  {
+    "answerable": false,
+    "applicable": false,
+    "domain": "sales",
+    "exclusion_reason": "negative_query_not_semantically_affected_by_primary_transition",
+    "logical_evidence_ids": [
+      "V3-SALES-00-0-1-EXC"
+    ],
+    "principal_id": "v3-tenant_b-sales-specialist",
+    "query_family": "negative",
+    "query_id": "v3-q-sales-31",
+    "transition": "REVOKE"
+  },
+  {
+    "answerable": true,
+    "applicable": false,
+    "domain": "sales",
+    "exclusion_reason": "post_transition_multi_source_answerability_undefined",
+    "logical_evidence_ids": [
+      "V3-SALES-00-0-2-BASE",
+      "V3-SALES-00-0-2-EXC"
+    ],
+    "principal_id": "v3-tenant_b-sales-specialist",
+    "query_family": "multi_document",
+    "query_id": "v3-q-sales-32",
+    "transition": "DELETE"
+  },
+  {
+    "answerable": true,
+    "applicable": false,
+    "domain": "sales",
+    "exclusion_reason": "post_transition_multi_source_answerability_undefined",
+    "logical_evidence_ids": [
+      "V3-SALES-00-0-2-BASE",
+      "V3-SALES-00-0-2-EXC"
+    ],
+    "principal_id": "v3-tenant_b-sales-specialist",
+    "query_family": "multi_document",
+    "query_id": "v3-q-sales-32",
+    "transition": "GRANT"
+  },
+  {
+    "answerable": true,
+    "applicable": false,
+    "domain": "sales",
+    "exclusion_reason": "post_transition_multi_source_answerability_undefined",
+    "logical_evidence_ids": [
+      "V3-SALES-00-0-2-BASE",
+      "V3-SALES-00-0-2-EXC"
+    ],
+    "principal_id": "v3-tenant_b-sales-specialist",
+    "query_family": "multi_document",
+    "query_id": "v3-q-sales-32",
+    "transition": "REVOKE"
+  },
+  {
+    "answerable": true,
+    "applicable": false,
+    "domain": "sales",
+    "exclusion_reason": "post_transition_multi_source_answerability_undefined",
+    "logical_evidence_ids": [
+      "V3-SALES-00-1-0-BASE",
+      "V3-SALES-00-1-0-EXC"
+    ],
+    "principal_id": "v3-tenant_a-sales-specialist",
+    "query_family": "multi_document",
+    "query_id": "v3-q-sales-33",
+    "transition": "DELETE"
+  },
+  {
+    "answerable": true,
+    "applicable": false,
+    "domain": "sales",
+    "exclusion_reason": "post_transition_multi_source_answerability_undefined",
+    "logical_evidence_ids": [
+      "V3-SALES-00-1-0-BASE",
+      "V3-SALES-00-1-0-EXC"
+    ],
+    "principal_id": "v3-tenant_a-sales-specialist",
+    "query_family": "multi_document",
+    "query_id": "v3-q-sales-33",
+    "transition": "GRANT"
+  },
+  {
+    "answerable": true,
+    "applicable": false,
+    "domain": "sales",
+    "exclusion_reason": "post_transition_multi_source_answerability_undefined",
+    "logical_evidence_ids": [
+      "V3-SALES-00-1-0-BASE",
+      "V3-SALES-00-1-0-EXC"
+    ],
+    "principal_id": "v3-tenant_a-sales-specialist",
+    "query_family": "multi_document",
+    "query_id": "v3-q-sales-33",
+    "transition": "REVOKE"
+  },
+  {
+    "answerable": false,
+    "applicable": false,
+    "domain": "security",
+    "exclusion_reason": "negative_query_not_semantically_affected_by_primary_transition",
+    "logical_evidence_ids": [
+      "V3-SECURITY-00-0-1-EXC"
+    ],
+    "principal_id": "v3-tenant_a-security-specialist",
+    "query_family": "negative",
+    "query_id": "v3-q-security-01",
+    "transition": "UPDATE"
+  },
+  {
+    "answerable": false,
+    "applicable": false,
+    "domain": "security",
+    "exclusion_reason": "negative_query_not_semantically_affected_by_primary_transition",
+    "logical_evidence_ids": [
+      "V3-SECURITY-00-0-1-EXC"
+    ],
+    "principal_id": "v3-tenant_a-security-specialist",
+    "query_family": "negative",
+    "query_id": "v3-q-security-01",
+    "transition": "SUPERSEDE"
+  },
+  {
+    "answerable": false,
+    "applicable": false,
+    "domain": "security",
+    "exclusion_reason": "negative_query_not_semantically_affected_by_primary_transition",
+    "logical_evidence_ids": [
+      "V3-SECURITY-00-0-1-EXC"
+    ],
+    "principal_id": "v3-tenant_a-security-specialist",
+    "query_family": "negative",
+    "query_id": "v3-q-security-01",
+    "transition": "DELETE"
+  },
+  {
+    "answerable": false,
+    "applicable": false,
+    "domain": "security",
+    "exclusion_reason": "negative_query_not_semantically_affected_by_primary_transition",
+    "logical_evidence_ids": [
+      "V3-SECURITY-00-0-1-EXC"
+    ],
+    "principal_id": "v3-tenant_a-security-specialist",
+    "query_family": "negative",
+    "query_id": "v3-q-security-01",
+    "transition": "GRANT"
+  },
+  {
+    "answerable": false,
+    "applicable": false,
+    "domain": "security",
+    "exclusion_reason": "negative_query_not_semantically_affected_by_primary_transition",
+    "logical_evidence_ids": [
+      "V3-SECURITY-00-0-1-EXC"
+    ],
+    "principal_id": "v3-tenant_a-security-specialist",
+    "query_family": "negative",
+    "query_id": "v3-q-security-01",
+    "transition": "REVOKE"
+  },
+  {
+    "answerable": false,
+    "applicable": false,
+    "domain": "security",
+    "exclusion_reason": "negative_query_not_semantically_affected_by_primary_transition",
+    "logical_evidence_ids": [
+      "V3-SECURITY-01-1-1-EXC"
+    ],
+    "principal_id": "v3-tenant_a-security-specialist",
+    "query_family": "negative",
+    "query_id": "v3-q-security-10",
+    "transition": "UPDATE"
+  },
+  {
+    "answerable": false,
+    "applicable": false,
+    "domain": "security",
+    "exclusion_reason": "negative_query_not_semantically_affected_by_primary_transition",
+    "logical_evidence_ids": [
+      "V3-SECURITY-01-1-1-EXC"
+    ],
+    "principal_id": "v3-tenant_a-security-specialist",
+    "query_family": "negative",
+    "query_id": "v3-q-security-10",
+    "transition": "SUPERSEDE"
+  },
+  {
+    "answerable": false,
+    "applicable": false,
+    "domain": "security",
+    "exclusion_reason": "negative_query_not_semantically_affected_by_primary_transition",
+    "logical_evidence_ids": [
+      "V3-SECURITY-01-1-1-EXC"
+    ],
+    "principal_id": "v3-tenant_a-security-specialist",
+    "query_family": "negative",
+    "query_id": "v3-q-security-10",
+    "transition": "DELETE"
+  },
+  {
+    "answerable": false,
+    "applicable": false,
+    "domain": "security",
+    "exclusion_reason": "negative_query_not_semantically_affected_by_primary_transition",
+    "logical_evidence_ids": [
+      "V3-SECURITY-01-1-1-EXC"
+    ],
+    "principal_id": "v3-tenant_a-security-specialist",
+    "query_family": "negative",
+    "query_id": "v3-q-security-10",
+    "transition": "GRANT"
+  },
+  {
+    "answerable": false,
+    "applicable": false,
+    "domain": "security",
+    "exclusion_reason": "negative_query_not_semantically_affected_by_primary_transition",
+    "logical_evidence_ids": [
+      "V3-SECURITY-01-1-1-EXC"
+    ],
+    "principal_id": "v3-tenant_a-security-specialist",
+    "query_family": "negative",
+    "query_id": "v3-q-security-10",
+    "transition": "REVOKE"
+  },
+  {
+    "answerable": true,
+    "applicable": false,
+    "domain": "security",
+    "exclusion_reason": "post_transition_multi_source_answerability_undefined",
+    "logical_evidence_ids": [
+      "V3-SECURITY-02-1-2-BASE",
+      "V3-SECURITY-02-1-2-EXC"
+    ],
+    "principal_id": "v3-tenant_b-security-specialist",
+    "query_family": "multi_document",
+    "query_id": "v3-q-security-17",
+    "transition": "DELETE"
+  },
+  {
+    "answerable": true,
+    "applicable": false,
+    "domain": "security",
+    "exclusion_reason": "post_transition_multi_source_answerability_undefined",
+    "logical_evidence_ids": [
+      "V3-SECURITY-02-1-2-BASE",
+      "V3-SECURITY-02-1-2-EXC"
+    ],
+    "principal_id": "v3-tenant_b-security-specialist",
+    "query_family": "multi_document",
+    "query_id": "v3-q-security-17",
+    "transition": "GRANT"
+  },
+  {
+    "answerable": true,
+    "applicable": false,
+    "domain": "security",
+    "exclusion_reason": "post_transition_multi_source_answerability_undefined",
+    "logical_evidence_ids": [
+      "V3-SECURITY-02-1-2-BASE",
+      "V3-SECURITY-02-1-2-EXC"
+    ],
+    "principal_id": "v3-tenant_b-security-specialist",
+    "query_family": "multi_document",
+    "query_id": "v3-q-security-17",
+    "transition": "REVOKE"
+  },
+  {
+    "answerable": true,
+    "applicable": false,
+    "domain": "security",
+    "exclusion_reason": "post_transition_multi_source_answerability_undefined",
+    "logical_evidence_ids": [
+      "V3-SECURITY-04-0-0-BASE",
+      "V3-SECURITY-04-0-0-EXC"
+    ],
+    "principal_id": "v3-tenant_a-security-specialist",
+    "query_family": "multi_document",
+    "query_id": "v3-q-security-24",
+    "transition": "DELETE"
+  },
+  {
+    "answerable": true,
+    "applicable": false,
+    "domain": "security",
+    "exclusion_reason": "post_transition_multi_source_answerability_undefined",
+    "logical_evidence_ids": [
+      "V3-SECURITY-04-0-0-BASE",
+      "V3-SECURITY-04-0-0-EXC"
+    ],
+    "principal_id": "v3-tenant_a-security-specialist",
+    "query_family": "multi_document",
+    "query_id": "v3-q-security-24",
+    "transition": "GRANT"
+  },
+  {
+    "answerable": true,
+    "applicable": false,
+    "domain": "security",
+    "exclusion_reason": "post_transition_multi_source_answerability_undefined",
+    "logical_evidence_ids": [
+      "V3-SECURITY-04-0-0-BASE",
+      "V3-SECURITY-04-0-0-EXC"
+    ],
+    "principal_id": "v3-tenant_a-security-specialist",
+    "query_family": "multi_document",
+    "query_id": "v3-q-security-24",
+    "transition": "REVOKE"
+  },
+  {
+    "answerable": true,
+    "applicable": false,
+    "domain": "security",
+    "exclusion_reason": "post_transition_multi_source_answerability_undefined",
+    "logical_evidence_ids": [
+      "V3-SECURITY-00-0-0-BASE",
+      "V3-SECURITY-00-0-0-EXC"
+    ],
+    "principal_id": "v3-tenant_a-security-specialist",
+    "query_family": "multi_document",
+    "query_id": "v3-q-security-30",
+    "transition": "DELETE"
+  },
+  {
+    "answerable": true,
+    "applicable": false,
+    "domain": "security",
+    "exclusion_reason": "post_transition_multi_source_answerability_undefined",
+    "logical_evidence_ids": [
+      "V3-SECURITY-00-0-0-BASE",
+      "V3-SECURITY-00-0-0-EXC"
+    ],
+    "principal_id": "v3-tenant_a-security-specialist",
+    "query_family": "multi_document",
+    "query_id": "v3-q-security-30",
+    "transition": "GRANT"
+  },
+  {
+    "answerable": true,
+    "applicable": false,
+    "domain": "security",
+    "exclusion_reason": "post_transition_multi_source_answerability_undefined",
+    "logical_evidence_ids": [
+      "V3-SECURITY-00-0-0-BASE",
+      "V3-SECURITY-00-0-0-EXC"
+    ],
+    "principal_id": "v3-tenant_a-security-specialist",
+    "query_family": "multi_document",
+    "query_id": "v3-q-security-30",
+    "transition": "REVOKE"
+  },
+  {
+    "answerable": true,
+    "applicable": false,
+    "domain": "security",
+    "exclusion_reason": "post_transition_multi_source_answerability_undefined",
+    "logical_evidence_ids": [
+      "V3-SECURITY-00-0-2-BASE",
+      "V3-SECURITY-00-0-2-EXC"
+    ],
+    "principal_id": "v3-tenant_a-security-specialist",
+    "query_family": "multi_document",
+    "query_id": "v3-q-security-32",
+    "transition": "DELETE"
+  },
+  {
+    "answerable": true,
+    "applicable": false,
+    "domain": "security",
+    "exclusion_reason": "post_transition_multi_source_answerability_undefined",
+    "logical_evidence_ids": [
+      "V3-SECURITY-00-0-2-BASE",
+      "V3-SECURITY-00-0-2-EXC"
+    ],
+    "principal_id": "v3-tenant_a-security-specialist",
+    "query_family": "multi_document",
+    "query_id": "v3-q-security-32",
+    "transition": "GRANT"
+  },
+  {
+    "answerable": true,
+    "applicable": false,
+    "domain": "security",
+    "exclusion_reason": "post_transition_multi_source_answerability_undefined",
+    "logical_evidence_ids": [
+      "V3-SECURITY-00-0-2-BASE",
+      "V3-SECURITY-00-0-2-EXC"
+    ],
+    "principal_id": "v3-tenant_a-security-specialist",
+    "query_family": "multi_document",
+    "query_id": "v3-q-security-32",
+    "transition": "REVOKE"
+  },
+  {
+    "answerable": true,
+    "applicable": false,
+    "domain": "security",
+    "exclusion_reason": "post_transition_multi_source_answerability_undefined",
+    "logical_evidence_ids": [
+      "V3-SECURITY-00-1-2-BASE",
+      "V3-SECURITY-00-1-2-EXC"
+    ],
+    "principal_id": "v3-tenant_b-security-specialist",
+    "query_family": "multi_document",
+    "query_id": "v3-q-security-35",
+    "transition": "DELETE"
+  },
+  {
+    "answerable": true,
+    "applicable": false,
+    "domain": "security",
+    "exclusion_reason": "post_transition_multi_source_answerability_undefined",
+    "logical_evidence_ids": [
+      "V3-SECURITY-00-1-2-BASE",
+      "V3-SECURITY-00-1-2-EXC"
+    ],
+    "principal_id": "v3-tenant_b-security-specialist",
+    "query_family": "multi_document",
+    "query_id": "v3-q-security-35",
+    "transition": "GRANT"
+  },
+  {
+    "answerable": true,
+    "applicable": false,
+    "domain": "security",
+    "exclusion_reason": "post_transition_multi_source_answerability_undefined",
+    "logical_evidence_ids": [
+      "V3-SECURITY-00-1-2-BASE",
+      "V3-SECURITY-00-1-2-EXC"
+    ],
+    "principal_id": "v3-tenant_b-security-specialist",
+    "query_family": "multi_document",
+    "query_id": "v3-q-security-35",
+    "transition": "REVOKE"
+  }
+]

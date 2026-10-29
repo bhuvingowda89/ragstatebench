@@ -1,0 +1,39 @@
+{
+  "corpus_version": "v3",
+  "generator_version": "phase7c-enterprise-realism-v3-2",
+  "world_seed": 101,
+  "query_seed": 202,
+  "transition_seed": 303,
+  "fault_seed": 404,
+  "logical_time": 9,
+  "top_k": 10,
+  "domains": ["hr", "finance", "engineering", "security", "sales", "legal"],
+  "family_counts_per_domain": {
+    "natural_descriptive": 13,
+    "paraphrased_policy": 7,
+    "entity_context": 5,
+    "identifier_bearing": 4,
+    "multi_document": 5,
+    "negative": 2
+  },
+  "embedding_model": "intfloat/e5-small-v2",
+  "embedding_revision": "ffb93f3bd4047442299a41ebb6fa998a38507c52",
+  "embedding_snapshot": "/Users/nischithacn/.cache/huggingface/hub/models--intfloat--e5-small-v2/snapshots/ffb93f3bd4047442299a41ebb6fa998a38507c52",
+  "embedding_query_prefix": "query: ",
+  "embedding_passage_prefix": "passage: ",
+  "hybrid": {"sparse_weight": 1.0, "dense_weight": 1.0, "rrf_k": 60, "candidate_k": 100},
+  "multi_document_diagnostic_expectation": "At least one retriever below 1.0 all-required success; retain all cases and report honestly if none.",
+  "gates_frozen_before_retrieval": {
+    "R1": {"min_archetypes": 6, "max_archetype_share": 0.40},
+    "R2": {"median_words_min": 150, "p90_words_min": 300},
+    "R3": {"multi_chunk_share_min": 0.40},
+    "R4": {"tenant_axis_cramers_v_max": 0.50},
+    "R5": {"identifier_leakage_max": 0.15, "non_identifier_unique_gold_token_max": 0.10, "exact_title_overlap_max": 0.05},
+    "R6": {"bm25_macro_cer_at_10_min": 0.85},
+    "R7": {"e5_macro_cer_at_10_min": 0.90},
+    "R8": {"hybrid_macro_scrs_min": 0.90, "hybrid_min_domain_scrs": 0.85},
+    "R9": {"hybrid_multi_document_all_required_min": 0.85},
+    "R10": {"negative_absence_success_min": 0.95},
+    "R11": {"identical_corpus_hash_and_rankings": true}
+  }
+}

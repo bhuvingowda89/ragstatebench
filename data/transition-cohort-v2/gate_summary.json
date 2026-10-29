@@ -1,0 +1,52 @@
+{
+  "F1": {
+    "status": "PASS",
+    "threshold": 0.85,
+    "value": 0.9068627450980392
+  },
+  "F2": {
+    "by_domain": {
+      "engineering": 0.9411764705882353,
+      "finance": 0.8235294117647058,
+      "hr": 0.9411764705882353,
+      "legal": 0.8823529411764706,
+      "sales": 0.9117647058823529,
+      "security": 0.9411764705882353
+    },
+    "status": "PASS",
+    "threshold": 0.8,
+    "value": 0.8235294117647058
+  },
+  "F3": {
+    "status": "PASS",
+    "threshold": 0.75,
+    "value": 0.8333333333333334
+  },
+  "F4": {
+    "by_family": {
+      "entity_context": 0.9333333333333333,
+      "identifier_bearing": 0.6666666666666666,
+      "multi_document": 0.8333333333333334,
+      "natural_descriptive": 0.9743589743589743,
+      "paraphrased_policy": 0.9523809523809523
+    },
+    "status": "PASS",
+    "threshold": 0.65,
+    "value": 0.6666666666666666
+  },
+  "F5": {
+    "status": "PASS",
+    "threshold": 0.9,
+    "value": 1.0
+  },
+  "F6": {
+    "status": "PASS",
+    "threshold": 0,
+    "value": 0
+  },
+  "F7": {
+    "status": "PASS",
+    "threshold": 1,
+    "value": 1
+  }
+}

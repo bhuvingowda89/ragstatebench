@@ -1,0 +1,8 @@
+.DS_Store
+.idea/
+.pytest_cache/
+.venv-dense/
+__pycache__/
+*.pyc
+build/
+results/

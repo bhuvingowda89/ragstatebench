@@ -1,0 +1,44 @@
+dimension,category,raw_count,eligible_count,eligibility_rate,unit
+answerability,answerable,204,183,0.8970588235294118,query
+answerability,negative,12,12,1.0,query
+document_structure,multi_document,30,25,0.8333333333333334,query
+document_structure,negative,12,12,1.0,query
+document_structure,single_document,174,158,0.9080459770114943,query
+domain,engineering,36,33,0.9166666666666666,query
+domain,finance,36,29,0.8055555555555556,query
+domain,hr,36,32,0.8888888888888888,query
+domain,legal,36,33,0.9166666666666666,query
+domain,sales,36,34,0.9444444444444444,query
+domain,security,36,34,0.9444444444444444,query
+domain_answerable,engineering,34,31,0.9117647058823529,query
+domain_answerable,finance,34,27,0.7941176470588235,query
+domain_answerable,hr,34,30,0.8823529411764706,query
+domain_answerable,legal,34,31,0.9117647058823529,query
+domain_answerable,sales,34,32,0.9411764705882353,query
+domain_answerable,security,34,32,0.9411764705882353,query
+domain_negative,engineering,2,2,1.0,query
+domain_negative,finance,2,2,1.0,query
+domain_negative,hr,2,2,1.0,query
+domain_negative,legal,2,2,1.0,query
+domain_negative,sales,2,2,1.0,query
+domain_negative,security,2,2,1.0,query
+evidence_position,beginning,84,79,0.9404761904761905,query-category incidence
+evidence_position,end,82,68,0.8292682926829268,query-category incidence
+evidence_position,middle,80,73,0.9125,query-category incidence
+query_family,entity_context,30,27,0.9,query
+query_family,identifier_bearing,24,17,0.7083333333333334,query
+query_family,multi_document,30,25,0.8333333333333334,query
+query_family,natural_descriptive,78,76,0.9743589743589743,query
+query_family,negative,12,12,1.0,query
+query_family,paraphrased_policy,42,38,0.9047619047619048,query
+required_document_count,0,12,12,1.0,query
+required_document_count,1,174,158,0.9080459770114943,query
+required_document_count,2,30,25,0.8333333333333334,query
+source_archetype,change_note,39,34,0.8717948717948718,query-category incidence
+source_archetype,customer_support,12,11,0.9166666666666666,query-category incidence
+source_archetype,engineering_runbook,21,18,0.8571428571428571,query-category incidence
+source_archetype,incident_ticket,34,31,0.9117647058823529,query-category incidence
+source_archetype,internal_email,37,32,0.8648648648648649,query-category incidence
+source_archetype,legal_notice,13,12,0.9230769230769231,query-category incidence
+source_archetype,policy_memo,41,39,0.9512195121951219,query-category incidence
+source_archetype,wiki_page,49,43,0.8775510204081632,query-category incidence

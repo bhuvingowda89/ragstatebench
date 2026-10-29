@@ -1,0 +1,18 @@
+{
+  "campaign_id": "pilot",
+  "campaign_version": "pilot-1",
+  "world_seed": 101,
+  "query_seed": 202,
+  "transition_seed": 303,
+  "fault_seed": 404,
+  "docs_per_domain": 20,
+  "tenants": 2,
+  "principals_per_tenant": 6,
+  "retriever": "bm25",
+  "architecture": "A0",
+  "top_k": 10,
+  "observation_ticks": [9, 10, 11, 12, 13, 14, 15],
+  "clean_query_count": 30,
+  "versioned_fraction": 0.25,
+  "output": "results/pilot"
+}

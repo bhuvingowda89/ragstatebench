@@ -1,0 +1,8 @@
+{
+  "analysis_policy_sha256": "2ea72a450bf20e08944d39b8fbb4ceab25c590bdcad7547a2e30edeca658feeb",
+  "cohort_sha256": "e74d643f6c2eb7c8ed8c52683e0db0152f7d7ddbcf29d86c070a28e22c79ce43",
+  "eligible_answerable_ids_sha256": "cffbba609992b2509f06569357909a1fe4d5a37c0975fbd373116c9c385a65f8",
+  "eligible_negative_ids_sha256": "b4e0c06dbbb0253c0721e2dcfe2985fa9876213de9a095851d3bd4bfd9f68300",
+  "independent_test_result": "80 passed",
+  "same_frozen_eligibility_rules_as_v1": true
+}

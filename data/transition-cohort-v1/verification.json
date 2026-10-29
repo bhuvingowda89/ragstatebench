@@ -1,0 +1,8 @@
+{
+  "analysis_policy_sha256": "b51e573cdbf4cfa0a63ec5a08a245eebca9d4f87efbf36e115835f3945f79a64",
+  "answerable_eligible": 183,
+  "cohort_sha256": "2b920c186513a7a13b98d2d5ba4c9b1c61530a61d19f37b65d8c7305eb16a804",
+  "eligibility_reasons_sha256": "088137168754d674e1ed42e15daf8b347feff87fb0cf637e0a2b0a6abdd4ff99",
+  "independent_process_verification": true,
+  "negative_eligible": 12
+}

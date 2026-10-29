@@ -1,0 +1,1 @@
+"""Deterministic retrieval campaigns."""

@@ -1,0 +1,22 @@
+query_id,domain,query_family,required_document_count,scrs,document_complete,claim_complete,causes,ineligibility_reasons
+v3-q-hr-06,hr,paraphrased_policy,1,1,1,0,missing claim-bearing chunk,missing_claim_bearing_chunk
+v3-q-hr-11,hr,identifier_bearing,1,0,0,0,missing document;missing claim-bearing chunk,scrs_failure;missing_document;missing_claim_bearing_chunk
+v3-q-hr-33,hr,identifier_bearing,1,0,0,0,missing document;missing claim-bearing chunk,scrs_failure;missing_document;missing_claim_bearing_chunk
+v3-q-hr-35,hr,entity_context,1,1,1,0,missing claim-bearing chunk,missing_claim_bearing_chunk
+v3-q-finance-03,finance,multi_document,2,0,0,0,missing document;missing claim-bearing chunk,scrs_failure;missing_document;missing_claim_bearing_chunk
+v3-q-finance-04,finance,paraphrased_policy,1,1,1,0,missing claim-bearing chunk,missing_claim_bearing_chunk
+v3-q-finance-06,finance,paraphrased_policy,1,1,1,0,missing claim-bearing chunk,missing_claim_bearing_chunk
+v3-q-finance-10,finance,identifier_bearing,1,0,0,0,missing document;missing claim-bearing chunk,scrs_failure;missing_document;missing_claim_bearing_chunk
+v3-q-finance-14,finance,entity_context,1,0,0,0,missing document;missing claim-bearing chunk,scrs_failure;missing_document;missing_claim_bearing_chunk
+v3-q-finance-26,finance,identifier_bearing,1,0,0,0,missing document;missing claim-bearing chunk,scrs_failure;missing_document;missing_claim_bearing_chunk
+v3-q-finance-27,finance,multi_document,2,0,0,0,missing document;missing claim-bearing chunk,scrs_failure;missing_document;missing_claim_bearing_chunk
+v3-q-engineering-00,engineering,natural_descriptive,1,1,1,0,missing claim-bearing chunk,missing_claim_bearing_chunk
+v3-q-engineering-05,engineering,identifier_bearing,1,0,0,0,missing document;missing claim-bearing chunk,scrs_failure;missing_document;missing_claim_bearing_chunk
+v3-q-engineering-30,engineering,natural_descriptive,1,1,1,0,missing claim-bearing chunk,missing_claim_bearing_chunk
+v3-q-security-07,security,entity_context,1,1,1,0,missing claim-bearing chunk,missing_claim_bearing_chunk
+v3-q-security-24,security,multi_document,2,0,0,0,missing document;missing claim-bearing chunk,scrs_failure;missing_document;missing_claim_bearing_chunk
+v3-q-sales-01,sales,multi_document,2,0,0,0,missing document;missing claim-bearing chunk,scrs_failure;missing_document;missing_claim_bearing_chunk
+v3-q-sales-04,sales,identifier_bearing,1,0,0,0,missing document;missing claim-bearing chunk,scrs_failure;missing_document;missing_claim_bearing_chunk
+v3-q-legal-07,legal,multi_document,2,0,0,0,missing document;missing claim-bearing chunk,scrs_failure;missing_document;missing_claim_bearing_chunk
+v3-q-legal-18,legal,identifier_bearing,1,0,0,0,missing document;missing claim-bearing chunk,scrs_failure;missing_document;missing_claim_bearing_chunk
+v3-q-legal-28,legal,paraphrased_policy,1,0,0,0,missing document;missing claim-bearing chunk,scrs_failure;missing_document;missing_claim_bearing_chunk

@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ragstatebench"
+version = "0.1.1"
+description = "Deterministic state-convergence benchmark substrate for enterprise RAG."
+requires-python = ">=3.10"
+
+[project.optional-dependencies]
+dense = ["sentence-transformers>=3.0,<6"]
+
+[project.scripts]
+ragstate = "ragstate.campaign.cli:main"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

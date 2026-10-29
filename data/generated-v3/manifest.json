@@ -1,0 +1,106 @@
+{
+  "config": {
+    "corpus_version": "v3",
+    "domains": [
+      "hr",
+      "finance",
+      "engineering",
+      "security",
+      "sales",
+      "legal"
+    ],
+    "embedding_model": "intfloat/e5-small-v2",
+    "embedding_passage_prefix": "passage: ",
+    "embedding_query_prefix": "query: ",
+    "embedding_revision": "ffb93f3bd4047442299a41ebb6fa998a38507c52",
+    "embedding_snapshot": "/Users/nischithacn/.cache/huggingface/hub/models--intfloat--e5-small-v2/snapshots/ffb93f3bd4047442299a41ebb6fa998a38507c52",
+    "family_counts_per_domain": {
+      "entity_context": 5,
+      "identifier_bearing": 4,
+      "multi_document": 5,
+      "natural_descriptive": 13,
+      "negative": 2,
+      "paraphrased_policy": 7
+    },
+    "fault_seed": 404,
+    "gates_frozen_before_retrieval": {
+      "R1": {
+        "max_archetype_share": 0.4,
+        "min_archetypes": 6
+      },
+      "R10": {
+        "negative_absence_success_min": 0.95
+      },
+      "R11": {
+        "identical_corpus_hash_and_rankings": true
+      },
+      "R2": {
+        "median_words_min": 150,
+        "p90_words_min": 300
+      },
+      "R3": {
+        "multi_chunk_share_min": 0.4
+      },
+      "R4": {
+        "tenant_axis_cramers_v_max": 0.5
+      },
+      "R5": {
+        "exact_title_overlap_max": 0.05,
+        "identifier_leakage_max": 0.15,
+        "non_identifier_unique_gold_token_max": 0.1
+      },
+      "R6": {
+        "bm25_macro_cer_at_10_min": 0.85
+      },
+      "R7": {
+        "e5_macro_cer_at_10_min": 0.9
+      },
+      "R8": {
+        "hybrid_macro_scrs_min": 0.9,
+        "hybrid_min_domain_scrs": 0.85
+      },
+      "R9": {
+        "hybrid_multi_document_all_required_min": 0.85
+      }
+    },
+    "generator_version": "phase7c-enterprise-realism-v3-2",
+    "hybrid": {
+      "candidate_k": 100,
+      "dense_weight": 1.0,
+      "rrf_k": 60,
+      "sparse_weight": 1.0
+    },
+    "logical_time": 9,
+    "multi_document_diagnostic_expectation": "At least one retriever below 1.0 all-required success; retain all cases and report honestly if none.",
+    "query_seed": 202,
+    "top_k": 10,
+    "transition_seed": 303,
+    "world_seed": 101
+  },
+  "config_sha256": "2897e3ff7521d3802937a06cd119bf523a7be74d3a624742bb8e74b160205a44",
+  "corpus_sha256": "440b2ce748865b8960573af69b72a2789a7fd61e0a68778238adf187bbc4ecc2",
+  "corpus_version": "v3",
+  "created_without_retrieval_scores": true,
+  "data_sha256": {
+    "documents.jsonl": "6147141bb779988da9664ca5346f6f62f5830b1b8da2333b2233e7429eb78c48",
+    "lexical_leakage.csv": "7914f7633f04fcd23b520e26fb5dff0da3f95145afc1452898a1b611e9d97398",
+    "metadata.jsonl": "bc1c5a2ab477a19edbf7d10ca0287df840a32a4f9e856753b9fec07159b40364",
+    "principals.jsonl": "ff3461434cace083be9cdd538832a865b7b9ffd082cd38d3ec65959e968ce828",
+    "queries.jsonl": "e5e06332c9503ba48f17ac306489db13b9a91a4e5046dde024f1d5ee0906d323"
+  },
+  "document_versions": 450,
+  "generator_source_sha256": {
+    "metrics.py": "b962a4b42b92904db23a0384ff6632709b046e55e37539fdaf99b3342d43d1d9",
+    "phase7b.py": "4e8a855f956ec45fd2391556e2756c4808d3cfe3100cc016d552ed7d4ebd4fc2",
+    "phase7c.py": "16c7e802a2975607a8db677f369f258e3e69c29fe329caca4e6538f8130cebfb",
+    "scientific_v2.py": "b2265fea3100e50d2ed0d4036ecfff520b1d3a81eb61f3a9d689857beb4d9071",
+    "scientific_v3.py": "b19b06322e29fab4b2a974b5609c58eba07eb1d1121fe3dd267db0d7a4face0f",
+    "v3_validation.py": "572658184db945ea0aef941e7761f7e72e8eff3aeac3aff6908c263bb5b939b2"
+  },
+  "generator_version": "phase7c-enterprise-realism-v3-2",
+  "git_commit": null,
+  "gold_validation_errors": [],
+  "logical_documents": 390,
+  "pre_retrieval_frozen": true,
+  "queries": 216
+}

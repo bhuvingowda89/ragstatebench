@@ -1,0 +1,47 @@
+{
+  "cohort_version": "transition-cohort-v2",
+  "full_corpus_clean_analysis": {
+    "purpose": "Report ordinary retrieval difficulty and retain clean failures",
+    "query_cohort": "all frozen v3 questions"
+  },
+  "historical_phase7d_gate_A4": {
+    "observed": "25/30",
+    "status": "FAIL",
+    "threshold": 0.85
+  },
+  "policy_version": "transition-analysis-policy-v2",
+  "primary_transition_analysis": {
+    "answerable_eligibility_rules": [
+      "canonical_answerable_and_gold_nonempty",
+      "scrs_equals_one",
+      "all_required_current_documents_in_context",
+      "all_required_complete_claim_spans_in_context",
+      "no_unauthorized_context_evidence",
+      "no_deleted_context_evidence",
+      "no_superseded_context_evidence",
+      "no_cross_tenant_context_evidence",
+      "no_mixed_version_context"
+    ],
+    "answerable_query_ids_file": "eligible_answerable_query_ids.json",
+    "fault_outcomes_used_for_inclusion": false,
+    "negative_eligibility_rules": [
+      "canonical_unanswerable_and_gold_empty",
+      "no_canonically_accessible_target_evidence",
+      "no_query_target_evidence_in_context",
+      "negative_evidence_absence_success",
+      "no_relevant_unauthorized_context_evidence",
+      "no_relevant_cross_tenant_context_evidence"
+    ],
+    "negative_query_ids_file": "eligible_negative_query_ids.json",
+    "purpose": "Estimate causal state-transition effects without baseline retrieval failures",
+    "retrieval_architecture_id": "RA1-hybrid-E5-PA2-k10"
+  },
+  "secondary_generalization_analysis": {
+    "cohort_rule": "retriever-specific clean eligibility must be frozen separately",
+    "included_in_primary_causal_factorial": false,
+    "retrievers": [
+      "bm25",
+      "e5"
+    ]
+  }
+}

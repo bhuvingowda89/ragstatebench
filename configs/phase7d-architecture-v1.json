@@ -1,0 +1,34 @@
+{
+  "phase": "phase7d-retrieval-architecture-v1",
+  "corpus_version": "v3",
+  "frozen_v3_data_manifest": "data/generated-v3/manifest.json",
+  "top_k": 10,
+  "retrievers": ["bm25", "e5", "hybrid"],
+  "architectures": {
+    "RA0": {"kind": "fixed_chunks", "chunk_words": 80, "overlap_words": 0},
+    "RA1": {"kind": "fixed_chunks", "chunk_words": 160, "overlap_words": 0},
+    "RA2": {"kind": "section_aware", "maximum_words": 200, "overlap_words": 0},
+    "RA3": {"kind": "hierarchical", "document_top_n": 8, "chunk_words": 80, "final_chunk_top_k": 10}
+  },
+  "hybrid": {"sparse_weight": 1.0, "dense_weight": 1.0, "rrf_k": 60, "candidate_k": 100},
+  "embedding_model": "intfloat/e5-small-v2",
+  "embedding_revision": "ffb93f3bd4047442299a41ebb6fa998a38507c52",
+  "embedding_snapshot": "/Users/nischithacn/.cache/huggingface/hub/models--intfloat--e5-small-v2/snapshots/ffb93f3bd4047442299a41ebb6fa998a38507c52",
+  "embedding_query_prefix": "query: ",
+  "embedding_passage_prefix": "passage: ",
+  "gates_frozen_before_execution": {
+    "A1": {"hybrid_overall_scrs_min": 0.93},
+    "A2": {"hybrid_min_domain_scrs_min": 0.85},
+    "A3": {"hybrid_claim_bearing_recall_min": 0.90},
+    "A4": {"hybrid_multi_document_doc_success_min": 0.85},
+    "A5": {"hybrid_multi_document_claim_success_min": 0.80},
+    "A6": {"negative_absence_success_min": 0.95},
+    "A7": {"identical_repeated_rankings_and_metrics": true}
+  },
+  "selection_rule": {
+    "primary": "maximum six-domain macro hybrid all-required claim-bearing success",
+    "tie_breakers": ["hybrid multi-document all-required claim-bearing success", "minimum-domain hybrid SCRS", "lower median hybrid query latency", "smaller estimated index bytes"],
+    "fault_results_excluded": true
+  },
+  "paired_analysis": {"bootstrap_replicates": 2000, "bootstrap_seed": 777, "mcnemar": "exact_two_sided"}
+}

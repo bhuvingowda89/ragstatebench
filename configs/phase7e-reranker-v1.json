@@ -1,0 +1,39 @@
+{
+  "phase": "phase7e-reranker-v1",
+  "frozen_corpus_manifest": "data/generated-v3/manifest.json",
+  "corpus_version": "v3",
+  "architecture": "RA1",
+  "chunk_words": 160,
+  "overlap_words": 0,
+  "first_stage": "frozen hybrid BM25 + E5 RRF",
+  "first_stage_candidate_k": 30,
+  "final_top_k": 10,
+  "hybrid": {"sparse_weight": 1.0, "dense_weight": 1.0, "rrf_k": 60, "candidate_k": 100},
+  "embedding_model": "intfloat/e5-small-v2",
+  "embedding_revision": "ffb93f3bd4047442299a41ebb6fa998a38507c52",
+  "embedding_snapshot": "/Users/nischithacn/.cache/huggingface/hub/models--intfloat--e5-small-v2/snapshots/ffb93f3bd4047442299a41ebb6fa998a38507c52",
+  "embedding_query_prefix": "query: ",
+  "embedding_passage_prefix": "passage: ",
+  "rerankers": {
+    "RR0": {"model": null, "rule": "first-stage hybrid order"},
+    "RR1": {"model": "cross-encoder/ms-marco-MiniLM-L6-v2", "scoring": "CrossEncoder query/passage pair"},
+    "RR2": {"model": "BAAI/bge-reranker-base", "scoring": "CrossEncoder query/passage pair"}
+  },
+  "selection_rule": {
+    "primary": "highest macro hybrid all-required claim-bearing success across six domains",
+    "tie_breakers": ["multi-document claim-bearing success", "minimum-domain SCRS", "overall SCRS", "lower median query latency"],
+    "fault_results_excluded": true
+  },
+  "gates_frozen_before_execution": {
+    "E1": {"overall_scrs_min": 0.93},
+    "E2": {"minimum_domain_scrs_min": 0.85},
+    "E3": {"cbr_at_10_min": 0.90},
+    "E4": {"multi_document_doc_success_min": 0.85},
+    "E5": {"multi_document_claim_success_min": 0.80},
+    "E6": {"negative_absence_min": 0.95},
+    "E7": {"identical_repeated_rankings_and_metrics": true},
+    "E8": {"overall_scrs_max_drop_vs_rr0": 0.01, "negative_absence_min": 0.95},
+    "E9": {"candidate_all_required_claim_ceiling_min": 0.95}
+  },
+  "paired_analysis": {"bootstrap_replicates": 2000, "bootstrap_seed": 777, "mcnemar": "exact_two_sided"}
+}

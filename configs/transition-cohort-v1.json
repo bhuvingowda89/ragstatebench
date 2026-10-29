@@ -1,0 +1,40 @@
+{
+  "cohort_version": "transition-cohort-v1",
+  "corpus_version": "v3",
+  "corpus_manifest": "data/generated-v3/manifest.json",
+  "clean_result": "results/phase7e-reranker-v1/rr0_baseline.csv",
+  "clean_result_manifest": "results/phase7e-reranker-v1/manifest.json",
+  "independent_ra1_result": "results/phase7d-retrieval-architecture-v1/per_query_results.csv",
+  "retrieval_architecture_id": "RA1-hybrid-BM25-E5-no-reranker-k10",
+  "chunk_words": 160,
+  "chunk_overlap_words": 0,
+  "top_k": 10,
+  "answerable_rules": [
+    "canonical_answerable_and_gold_nonempty",
+    "scrs_equals_one",
+    "all_required_current_documents_in_context",
+    "all_required_complete_claim_spans_in_context",
+    "no_unauthorized_context_evidence",
+    "no_deleted_context_evidence",
+    "no_superseded_context_evidence",
+    "no_cross_tenant_context_evidence",
+    "no_mixed_version_context"
+  ],
+  "negative_rules": [
+    "canonical_unanswerable_and_gold_empty",
+    "no_canonically_accessible_target_evidence",
+    "no_query_target_evidence_in_context",
+    "negative_evidence_absence_success",
+    "no_relevant_unauthorized_context_evidence",
+    "no_relevant_cross_tenant_context_evidence"
+  ],
+  "gates_frozen_before_cohort_generation": {
+    "F1": {"answerable_retention_min": 0.85},
+    "F2": {"each_domain_answerable_retention_min": 0.80},
+    "F3": {"multi_document_retention_min": 0.75},
+    "F4": {"each_nonnegative_family_retention_min": 0.65},
+    "F5": {"negative_retention_min": 0.90},
+    "F6": {"eligible_integrity_violations_max": 0},
+    "F7": {"independent_hash_and_ids_identical": true}
+  }
+}

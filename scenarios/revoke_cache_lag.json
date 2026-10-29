@@ -1,0 +1,28 @@
+{
+  "name": "revoke_cache_lag",
+  "description": "Permission revocation is immediate in canonical state, delayed in ACL replica and cache.",
+  "events": [
+    {
+      "event_id": "e1",
+      "logical_time": 10,
+      "event_type": "PERMISSION_REVOKE",
+      "resource_id": "POLICY-1",
+      "payload": {
+        "principal_id": "alice",
+        "logical_document_id": "POLICY-1"
+      }
+    }
+  ],
+  "faults": [
+    {
+      "replica": "acl",
+      "event_id": "e1",
+      "delay": 3
+    },
+    {
+      "replica": "cache",
+      "event_id": "e1",
+      "delay": 6
+    }
+  ]
+}

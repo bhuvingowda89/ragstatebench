@@ -1,0 +1,21 @@
+{
+  "campaign_id": "final-scientific-campaign-v1",
+  "instrument_config": "configs/state-isolated-pilot-v4.json",
+  "source_scientific_manifest": "results/state-isolated-pilot-v4-preflight/scientific_manifest.json",
+  "source_applicability_manifest": "results/scenario-applicability-v2/applicability_manifest.json",
+  "track_b_source_manifest": "results/realistic-transfer-pilot-v2/transfer_manifest.json",
+  "track_b_confirmation": "frozen TB1-TB4 population and PA2, targeted repeat only",
+  "fa1_population": "all validated TA1 applicable query-transition-severity trajectories",
+  "fa2_population": "FA1 trajectories, analytic view without duplicate execution",
+  "fa3_population": "validated TA2 fault trajectories including frozen topology unit plans",
+  "fa4_expansion": "all TA1-eligible query-transition pairs for UPDATE, SUPERSEDE, DELETE, REVOKE at S2 under A0/A3/A5, compiler-filtered",
+  "fa5_expansion": "first three eligible queries per domain and transition for SUPERSEDE, DELETE, GRANT, REVOKE at S2 under A0-A5, compiler-filtered",
+  "fa6_population": "validated TA6 component-factorial subset only",
+  "fa7_population": "validated TA5 CF1-CF6 stress scenarios only",
+  "selection_rule": "lexicographic query ID before outcomes, source manifest query membership only",
+  "partial_seed_policy": "retain frozen v4 selected-unit plans; no identical deterministic replications",
+  "observation_grid": [-1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14],
+  "checkpoint_frequency": "every scenario, atomic status and separate trajectory files",
+  "block_failure_policy": "INVALID only affected block unless shared runtime semantics implicated",
+  "analysis_policy_version": "final-scientific-analysis-policy-v1"
+}

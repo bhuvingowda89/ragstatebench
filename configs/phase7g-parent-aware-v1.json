@@ -1,0 +1,44 @@
+{
+  "phase": "phase7g-parent-aware-v1",
+  "corpus_version": "v3",
+  "corpus_manifest": "data/generated-v3/manifest.json",
+  "phase7e_manifest": "results/phase7e-reranker-v1/manifest.json",
+  "phase7e_candidate_pool": "results/phase7e-reranker-v1/candidate_pool.jsonl",
+  "phase7e_candidate_summary": "results/phase7e-reranker-v1/candidate_summary.json",
+  "phase7e_rr0": "results/phase7e-reranker-v1/rr0_baseline.csv",
+  "cohort_v1_manifest": "data/transition-cohort-v1/cohort_manifest.json",
+  "cohort_v1_config": "configs/transition-cohort-v1.json",
+  "architecture": "RA1",
+  "chunk_words": 160,
+  "overlap_words": 0,
+  "candidate_k": 30,
+  "top_k": 10,
+  "embedding_model": "intfloat/e5-small-v2",
+  "embedding_revision": "ffb93f3bd4047442299a41ebb6fa998a38507c52",
+  "embedding_snapshot": "/Users/nischithacn/.cache/huggingface/hub/models--intfloat--e5-small-v2/snapshots/ffb93f3bd4047442299a41ebb6fa998a38507c52",
+  "embedding_query_prefix": "query: ",
+  "embedding_passage_prefix": "passage: ",
+  "hybrid": {"sparse_weight": 1.0, "dense_weight": 1.0, "rrf_k": 60, "candidate_k": 100},
+  "policies": {
+    "PA0": {"description": "frozen hybrid top-10 order"},
+    "PA1": {"description": "frozen hybrid top-30 order with max two chunks per logical document", "max_chunks_per_logical_document": 2},
+    "PA2": {"description": "equal chunk-rank and independent parent-document hybrid rank RRF", "rrf_k": 60},
+    "PA3": {"description": "PA2 rank fusion then max two chunks per logical document", "rrf_k": 60, "max_chunks_per_logical_document": 2}
+  },
+  "selection_rule": {
+    "primary": "highest macro domain SCRS",
+    "tie_breakers": ["multi-document claim-bearing success", "minimum-domain SCRS", "overall claim-bearing success", "lower median query latency"],
+    "cohort_retention_excluded": true
+  },
+  "gates_frozen_before_execution": {
+    "G1": {"overall_scrs_min": 0.93},
+    "G2": {"minimum_domain_scrs_min": 0.85},
+    "G3": {"cbr_at_10_min": 0.90},
+    "G4": {"multi_document_document_success_min": 0.85},
+    "G5": {"multi_document_claim_success_min": 0.80},
+    "G6": {"negative_absence_min": 0.95},
+    "G7": {"identical_repeated_rankings": true},
+    "G8": {"single_document_scrs_max_drop": 0.01}
+  },
+  "paired_analysis": {"bootstrap_seed": 777, "bootstrap_replicates": 2000, "mcnemar": "exact_two_sided"}
+}

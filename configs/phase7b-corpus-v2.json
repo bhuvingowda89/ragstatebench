@@ -1,0 +1,40 @@
+{
+  "corpus_version": "v2",
+  "validation_version": "phase7b-corpus-validation-v2-2",
+  "world_seed": 101,
+  "query_seed": 202,
+  "transition_seed": 303,
+  "fault_seed": 404,
+  "logical_time": 9,
+  "top_k": 10,
+  "domains": ["hr", "finance", "engineering", "security", "sales", "legal"],
+  "questions_per_domain": 36,
+  "family_counts_per_domain": {
+    "natural_descriptive": 13,
+    "paraphrased_policy": 7,
+    "entity_context": 5,
+    "identifier_bearing": 4,
+    "multi_document": 5,
+    "negative": 2
+  },
+  "embedding_model": "intfloat/e5-small-v2",
+  "embedding_revision": "ffb93f3bd4047442299a41ebb6fa998a38507c52",
+  "embedding_snapshot": "/Users/nischithacn/.cache/huggingface/hub/models--intfloat--e5-small-v2/snapshots/ffb93f3bd4047442299a41ebb6fa998a38507c52",
+  "embedding_query_prefix": "query: ",
+  "embedding_passage_prefix": "passage: ",
+  "hybrid": {
+    "sparse_weight": 1.0,
+    "dense_weight": 1.0,
+    "rrf_k": 60,
+    "candidate_k": 100
+  },
+  "gates_frozen_before_retrieval": {
+    "V2-G1": {"identifier_leakage_max": 0.15, "non_identifier_unique_gold_token_max": 0.25, "unresolved_construction_warnings_max": 0},
+    "V2-G2": {"bm25_macro_cer_at_10_min": 0.85},
+    "V2-G3": {"e5_macro_cer_at_10_min": 0.90},
+    "V2-G4": {"hybrid_macro_scrs_min": 0.90, "hybrid_min_domain_scrs": 0.85},
+    "V2-G5": {"hybrid_multi_document_all_required_min": 0.85},
+    "V2-G6": {"negative_absence_success_min": 0.90},
+    "V2-G7": {"identical_corpus_hash_and_rankings": true}
+  }
+}
